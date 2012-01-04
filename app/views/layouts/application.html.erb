@@ -3,6 +3,7 @@
 <head>
   <title>WomenSupport</title>
   <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    "application" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -11,10 +12,10 @@
 
           <nav id="nav">
                <ul id="m_nav">
-                   <li><%= link_to "Home", main_index_path %></li>
+
                    <li><%= link_to "About Us", pages_about_us_path %></li>
-                   <li><%=link_to "Services",pages_services_path %></li>
-                   <li><%=link_to "Achievements",pages_achievements_path %></li>
+                   <li><%= link_to "Services",pages_services_path %></li>
+                   <li><%= link_to "Achievements",pages_achievements_path %></li>
                    <li><%=link_to "Our Organization	",pages_Our_organization_path %></li>
                </ul>
                <ul id="sub_nav">

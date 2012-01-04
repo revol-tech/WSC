@@ -1,31 +1,15 @@
 <div id="banner">
-      <div id="banner_content">
-         <div id="sub_banner">
-           <div id="logo">
-               <%=image_tag "logo_img.gif"%>
-           </div>
+  <div id="banner_content">
+    <div id="sub_banner">
+      <%=image_tag "logo_img.png", :id => "logo"%>
+        <h1 id="intro" >11 Years Of Exellence In Microfinance Service</h1>
+          <p id="intro_text">Women Support Cooperative Ltd. (WSC) was established by 28 professional women promoters on December 20, 1999 under the "Cooperative Act, 1992", Government of Nepal. The main objectives of WSC is to empowerment rural as well as urban poor and deprived women providing financial supports through Micro Finance Program of its service areas of Kathmandu District.
+          </p>
+        <%= image_tag "logo.png", :id=>"title_img"%>
+        <span id="read_more">READ MORE ABOUT US</span>
+      </div> <!-- end of intro -->
 
-            <div id="intro">
-                  <h1>11 Years Of Exellence In Microfinance Service</h1>
-               <div id="intro_text">
-                   <p>Women Support Cooperative Ltd. (WSC) was
-                       established by 28 professional women promoters on
-                        December 20, 1999 under the "Cooperative Act, 1992", Government of
-                         Nepal. The main objectives of WSC is to empowerment rural as well as
-                          urban poor and deprived women providing financial supports through
-                           Micro Finance Program of its service areas of Kathmandu District.
-                    </p>
-                    <div id="read_text">
-                         <a><%= link_to "READ MORE...","" %> </a>
-                    </div>
-
-              </div>
-
-           </div></div>
-           <div id="title_img">
-                    <%=image_tag "logo.png"%>
-              </div>
-</div>
+  </div> <!-- end of sub_banner -->
  </div>
  <div id="wrapper">
       <div id="m_content">
@@ -71,9 +55,10 @@
                                            <p> established by 28 professional women promoters on
                                    </p>
                                       <div id="d"><a><%= link_to "READ MORE","" %> </a></div>
-                                   </div></div>
-                                    <div class="a">
+                                   </div>
+                                   </div>
                              <%= image_tag "DSC02702.JPG",:class=>"act"%>
+                                    <div class="a">
                              <div class="b">
                           <p> established by 28 professional women promoters on
                                   </p>
