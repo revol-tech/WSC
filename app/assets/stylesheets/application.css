@@ -1,0 +1,114 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require_tree .
+*/
+body{
+font-family: 'Patua One', cursive;
+  background:#5a3e33;
+}
+
+
+#wrapper{
+  width:960px;
+  margin:0 auto;
+}
+#nav{
+  height:80px;
+  width:960px;
+  margin:0 auto;
+
+
+
+}
+#m_nav{
+  float:left;
+  margin-left:120px;
+  margin-top:30px;
+
+}
+
+#m_nav ul, #sub_nav ul{
+  list-style:none;
+}
+#m_nav li, #sub_nav li{
+  margin-left:10px;
+  display:inline;
+
+}
+#m_nav a{
+  text-decoration:none;
+  color:#aa6544;
+  font:16px;
+}
+#m_nav a:hover,#sub_nav a:hover{
+  text-decoration:none;
+  color:#F2B99E;
+  font:16px;
+}
+#m_nav a:active{
+  text-decoration:none;
+  color:#F2B99E;
+  font:16px;
+}
+#sub_nav{
+  float:left;
+margin-top:40px;
+}
+#sub_nav a{
+  text-decoration:none;
+  color:#ad6441;
+  font-size:12px;
+}
+.facebook{
+  margin-top:30px;
+  margin-left:10px;
+  position:relative;
+
+}
+#footer{
+  height:200px;
+  border-top:2px dashed #f4b7a2;
+  margin-top:30px;
+  width:960px;
+  margin:0 auto;
+}
+#main_footer{
+  height:50px;
+  background:#ad6443;
+  border-radius:10px;
+  margin-top:200px;
+
+}
+#main_footer p{
+ float:left;
+ color:#fff;
+ font-size:14px;
+  margin-left:10px;
+
+}
+#back{
+ float:right;
+ width:100px;
+ margin-top:50px;
+}
+.back_img{
+  margin-left:20px;
+  margin-top:20px;
+
+}
+.back_text{
+  font-size:12px;
+ color:#FDCFC0;
+ float:left;
+
+}
+.owner{
+  float:right;
+  color:#fff;
+  padding-top:15px;
+  font-size:14px;
+  margin-right:10px;
+}

@@ -1,0 +1,211 @@
+// Place all the styles related to the main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#banner{
+   height:329px;
+   border-top:4px solid 	#f4b89e;
+   border-bottom:4px solid 	#f4b89e;
+   background:#ad6443;
+}
+#banner_content{
+ width:960px;
+ margin:0 auto;
+}
+#logo{
+  height:200px;
+  width:170px;
+
+  margin-left:10px;
+  float:left;
+  background:#fadfd4;
+  border:3px solid #f2b8a0;
+  border-radius:10px;
+}
+#intro{
+  margin-left:210px;
+
+
+
+}
+#intro h1{
+  font-size:32px;
+  font-family:futura;
+  color:#f2b99e;
+
+}
+#intro p{
+  color:#fdcfc0;
+  float:right;
+
+  font-size:14px;
+}
+
+#title_img{
+   margin-top:20px;
+  width:318px;
+
+
+}
+#read_text{
+  height:50px;
+  width:300px;
+  background:#5e3e33;
+  float:right;
+  border-radius:10px;
+
+}
+#m_content{
+  height:350px;
+  margin-top:30px;
+
+}
+#sub_banner{
+
+  height:210px;
+
+}
+#content{
+  float:left;
+  height:300px;
+  width:330px;
+
+}
+#image{
+  height:170px;
+  width:160px;
+  margin-left:80px;
+  border:2px solid #fff;
+  border-radius:10px;
+  overflow:hidden;
+
+}
+
+ #content p{
+  color:#fdcfc0;
+
+  font-size:14px;
+}
+.read{
+  height:50px;
+  width:300px;
+  background:#ad6443;
+  border-radius:10px;
+
+}
+.read a,#read_text a{
+  text-decoration:none;
+  color:#f0ba9e;
+  margin-left:30px;
+  font-size:30px;
+
+}
+#gallery{
+  float:right;
+  height:300px;
+  width:600px;
+  border-radius:10px;
+  border:10px solid #ad6443;
+  overflow:hidden;
+}
+#sub_content{
+   height:450px;
+
+
+}
+.sub_main{
+
+
+  width:310px;
+  margin-left:8px;
+  float:left;
+}
+#news{
+ float:left;
+ height:350px;
+ width:300px;
+
+ border-radius:10px;
+ background:#ad6443;
+
+}
+
+.act{
+ float:left;
+ margin-top:20px;
+  margin-left:5px;
+ border-radius:10px;
+
+}
+.news_a{
+
+   height:100px;
+   border-bottom:1px dashed #fdcfc0;
+}
+.b{
+ float:right;
+ width:190px;
+}
+.sub_news{
+  border-bottom:1px dashed #fdcfc0;
+
+}
+#d{
+  height:30px;
+  width:100px;
+  margin-left:10px;
+  background:#5A3E33;
+  border-radius:10px;
+}
+#d a{
+ color:#FDCFC0;
+ text-decoration:none;
+ padding-left:10px;
+ padding-top:5px;
+ font-size:10px;
+
+}
+
+.text{
+  color:#fadfd4;
+  margin-left:70px;
+}
+.sub_main p{
+  color:#fdcfc0;
+  font-size:12px;
+  text-align:center;
+
+  margin-top:20px;
+  margin-left:10px;
+
+}
+.sub_main span{
+ margin-left:100px;
+ margin-top:0px;
+ color:#fff;
+ font-size:20px;
+}
+
+#contact{
+   height:100px;
+   width:300px;
+   margin-left:330px;
+   border-radius:10px;
+ background:#ad6443;
+ float:left;
+ margin-top:50px;
+}
+.map{
+  margin-left:50px;
+   margin-top:20px;
+}
+#contact p{
+ color:#FDCFC0;
+ font-size:14px;
+ text-align:center;
+
+}
+.branch{
+    color:#fff;
+ font-size:14px;
+ text-sub_maingn:center;
+}
