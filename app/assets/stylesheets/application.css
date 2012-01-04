@@ -10,7 +10,19 @@ font-family: 'Patua One', cursive;
   background:#5a3e33;
 }
 
+.facebook{
+  margin-top:25px;
+  margin-left:10px;
+  position:relative;
 
+}
+#footer{
+  height:200px;
+  border-top:2px dashed #f4b7a2;
+  margin-top:30px;
+  width:960px;
+  margin:0 auto;
+}
 #wrapper{
   width:960px;
   margin:0 auto;
@@ -55,26 +67,14 @@ font-family: 'Patua One', cursive;
 }
 #sub_nav{
   float:left;
-margin-top:40px;
+  margin-top:29px;
 }
 #sub_nav a{
   text-decoration:none;
   color:#ad6441;
   font-size:12px;
 }
-.facebook{
-  margin-top:30px;
-  margin-left:10px;
-  position:relative;
 
-}
-#footer{
-  height:200px;
-  border-top:2px dashed #f4b7a2;
-  margin-top:30px;
-  width:960px;
-  margin:0 auto;
-}
 #main_footer{
   height:50px;
   background:#ad6443;
