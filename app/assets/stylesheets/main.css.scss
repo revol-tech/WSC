@@ -45,14 +45,19 @@
     border: 3px solid #F2B8A0;
     border-radius: 0 0 10px 10px;
     float: left;
-    margin-left: -40px;
-    margin-top: -113px;
+     left: 440px;
+
+    position: relative;
+    top: -95px;
+    z-index: 1;
 }
 
 #read_more{
   background-color: #F0BA9E;
   float: right;
-  padding: 5px 20px;
+  padding: 0px 20px;
+  color:#ad6443;
+  font-size:20px;
   text-align: center;
   width: 272px;
 }
@@ -62,7 +67,6 @@
   margin-top: 39px;
   margin-bottom:12px;
   width: 318px;
-
 }
 
 #m_content{
@@ -210,4 +214,19 @@
     color:#fff;
  font-size:14px;
  text-sub_maingn:center;
+}
+#sub_banner_content{
+  width:550px;
+  display:block;
+  float:left;
+  height:246px;
+  background:url("women_standing_bg.png") no-repeat bottom left;
+}
+sub_banner_image_title{
+ width:400px;
+ float:right;
+
+}
+#women_standing{
+   float:left;
 }
