@@ -21,9 +21,14 @@
                <ul id="sub_nav">
                     <li><%= link_to "Jobs",pages_jobs_path %></li>
                     <li><a><%= link_to "Contact Us",pages_contact_us_path %></a></li>
-                    <li><a><%= link_to "Follow Us","" %></a></li>
-               </ul>
-      	            <a href="#"><%=image_tag "social_network_img.png",:class=>"facebook"%></a>
+                </ul>
+                <div id="social_network">
+                    <span class="social_network_text">Follow Us</span>
+                    <a href="#" class="facebook"></a>
+                    <a href="#" class="twitter"></a>
+                    </div>
+
+
            </nav>
 
 <%= yield %>

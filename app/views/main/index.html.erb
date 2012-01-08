@@ -1,7 +1,7 @@
 <div id="banner">
-<%=image_tag "logo_img.png", :id => "logo"%>
+<a href="#" ><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"logo"%></a>
   <div id="banner_content">
-    <div id="sub_banner">
+
 
         <h1 id="intro" >11 Years Of Exellence In Microfinance Service</h1>
       <div id="sub_banner_content">
@@ -10,10 +10,10 @@
 
         </div><!---end of sub_banner_content -->
         <div id="sub_banner_image_title">
-        <%= image_tag "logo.png", :id=>"title_img"%>
-        <span id="read_more">READ MORE ABOUT US</span>
-<%= image_tag "WomenTree_bg.png" %></div> <!---end of sub_banner_image_title -->
-      </div> <!-- end of sub_banner -->
+                <%= image_tag "logo.png", :id=>"title_img"%>
+                <span id="read_more">READ MORE ABOUT US</span>
+        </div> <!---end of sub_banner_image_title -->
+
   </div> <!-- end of banner_content -->
  </div>
 <div id="wrapper">
@@ -32,54 +32,63 @@
              </div>
              <div id="gallery">
                    <ul class="slideshow">
-	                    <li class="show"><a href="http://www.google.com"><img src="assets/image1.JPG" width="600" height="300" title="Slide 1" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
-	                    <li><a href="http://www.yahoo.com"><img src="assets/image2.jpg" width="600" height="300" title="Slide 2" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
-                    	<li><a href="http://www.msn.com"><img src="assets/image3.JPG" width="600" height="300" title="Slide 3" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+	                    <li class="show"><a href="http://www.google.com"><img src="assets/1.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a><p class="slideshow_read">Read More...</p></li>
+	                    <li><a href="http://www.yahoo.com"><img src="assets/2.jpg" width="600" height="300" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/3.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/4.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/5.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/6.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
                   </ul>
              </div>
        </div>
        <div id="sub_content">
               <div class="sub_main">
-                    <h2 class="text">News & Events</h2>
-                  <div id="news">
-                         <p class="sub_news"> established by 28 professional women promoters on
-                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p>
-                         <p class="sub_news"> established by 28 professional women promoters on
-                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p>
-                         <p class="sub_news"> established by 28 professional women promoters on
-                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p>
+                    <a href="#"><h2 class="text">News & Events</h2></a>
+                  <div class="news">
+                         <a href="#"><p class="sub_news"> established by 28 professional women promoters on
+                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
+                        <a href="#"> <p class="sub_news"> established by 28 professional women promoters on
+                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
+                         <a href="#"><p class="sub_news"> established by 28 professional women promoters on
+                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
                          <span>1 of 5 >></span>
-                  </div>
-               </div>
-               <div class="sub_main">
-                       <h2 class="text">Activities</h2>
-                     <div id="news">
-                           <div class="news_a">
-                             <%= image_tag "DSC02702.JPG",:class=>"act"%>
-                                 <div class="b">
-                                           <p> established by 28 professional women promoters on
+                  </div><!--end of news-->
+               </div><!--end of sub_main-->
+               <div class="sub_main_activities">
+                       <a href="#"><h2 class="text">Activities</h2></a>
+                     <div class="news">
+                           <div class="activities_text">
+                                   <%= image_tag "DSC_1157.jpg", :class=>"activities_img"%>
+                              <p> established by 28 professional women promoters on
+                              <%= link_to "Read more","#", :class=>"activities_read" %>
                                    </p>
-                                      <div id="d"><a><%= link_to "READ MORE","" %> </a></div>
-                                   </div>
-                                   </div>
-                             <%= image_tag "DSC02702.JPG",:class=>"act"%>
-                                    <div class="a">
-                             <div class="b">
-                          <p> established by 28 professional women promoters on
-                                  </p>
-                                <div id="d"><a><%= link_to "READ MORE","" %> </a></div>
-                           </div></div>
 
-                          <span>1 of 5 >></span>
-                     </div>
-                </div>
-              <div class="sub_main">
-                       <h2 class="text">Branch</h2>
-                    <div id="news">
+                           </div><!--end of activities_text-->
+                            <div class="activities_text">
+                                   <%= image_tag "DSC_1157.jpg", :class=>"activities_img"%>
+                              <p> established by 28 professional women promoters on
+                              <%= link_to "Read more","#", :class=>"activities_read" %>
+                                   </p>
+
+                           </div><!--end of activities_text-->
+                            <span>1 of 5 >></span>
+                     </div><!--end of news-->
+
+                 </div><!--end of sub_main_activities-->
+
+
+
+
+
+              <div class="sub_main_activities">
+                      <a href="#"><h2 class="text">Branch</h2></a>
+                    <div class="news">
                           <%= image_tag "map.jpg",:class=>"map"%>
                                <p class="branch">  Balaju Chowk,Kathmandu</br>
-                                               01-6617807</br>
+                                               +977-1-4387031,+977-1-4388887</br>
                                        wscl2056@gmail.com</p>
 
-                     </div>
-             </div></div>
+                     </div><!--end of news-->
+             </div><!--end of sub_main_activities-->
+
+   </div><!--end of news-->

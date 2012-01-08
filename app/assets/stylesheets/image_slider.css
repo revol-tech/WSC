@@ -50,5 +50,13 @@ ul img {
 	margin:5px 0 0 0;
 	padding:0;
 	color:#5a3e32;
+	width:445px;
+
+}
+.slideshow_read{
+  height:20px;
+  width:80px;
+  border-radius:5px;
+  color:#ad6443;
 
 }

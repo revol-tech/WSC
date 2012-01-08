@@ -2,14 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #banner{
+display:block;
    height:329px;
    border-top:4px solid 	#f4b89e;
    border-bottom:4px solid 	#f4b89e;
    background:#ad6443;
 }
 #banner_content{
+display:block;
  width:960px;
+ height:329px;
  margin:0 auto;
+  background:url("WomenTree_bg.png") no-repeat bottom right;
 }
 
 #content{
@@ -28,16 +32,18 @@
 #intro{
   font-size:32px;
   color:#F3b99F;
-  margin-left:170px;
+ float:left;
+ margin:40px 0 0 200px;
+ height:65px;
   text-shadow: -3px -3px 5px black;
 }
 
 #intro_text{
   font-family: 'Habibi', serif;
-  margin-top: 44px;
-  width: 30em;
+
+  width:410px;
   text-align:justify;
-  float:left;
+  float:right;
 }
 
 #logo {
@@ -45,7 +51,7 @@
     border: 3px solid #F2B8A0;
     border-radius: 0 0 10px 10px;
     float: left;
-     left: 440px;
+     left: 190px;
 
     position: relative;
     top: -95px;
@@ -61,10 +67,26 @@
   text-align: center;
   width: 272px;
 }
+#sub_banner_content{
+  width:600px;
+  display:block;
+  float:left;
+  height:224px;
+  background:url("women_standing_bg.png") no-repeat bottom left;
+}
+#sub_banner_image_title{
+ width:325px;
+ float:right;
+
+
+}
+#women_standing{
+   float:left;
+}
 
 #title_img{
   float: right;
-  margin-top: 39px;
+  margin-top: 12px;
   margin-bottom:12px;
   width: 318px;
 }
@@ -72,11 +94,6 @@
 #m_content{
   height:350px;
   margin-top:30px;
-
-}
-#sub_banner{
-
-  height:210px;
 
 }
 
@@ -121,18 +138,42 @@
 .sub_main{
 
 
-  width:310px;
-  margin-left:8px;
+  width:300px;
+
   float:left;
 }
-#news{
+.news{
  float:left;
  height:350px;
- width:300px;
-
+ width:290px;
+  font-family: 'Habibi',serif;
  border-radius:10px;
  background:#ad6443;
+}
+.sub_main p{
+  color:#fdcfc0;
+  font-size:12px;
+   padding:15px 15px 15px 15px;
 
+}
+.sub_main_activities{
+   color:#fdcfc0;
+  font-size:12px;
+
+   padding:15px 15px 15px 15px;
+    width:290px;
+
+  float:left;
+}
+.sub_main span{
+ margin:0 0 0 110px;
+
+ color:#fff;
+ font-size:20px;
+}
+.sub_news p {
+    color: #FDCFC0;
+    font-size: 12px;
 }
 
 .act{
@@ -142,54 +183,52 @@
  border-radius:10px;
 
 }
-.news_a{
-
-   height:100px;
+.activities_text{
+   height:120px;
    border-bottom:1px dashed #fdcfc0;
 }
-.b{
- float:right;
- width:190px;
+.activities_img{
+  border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin: 20px 0 0 10px;
+
+
 }
+.activities_text p{
+ float: right;
+
+    padding: 6px 0 30px;
+    width: 175px;
+}
+.activities_read{
+   background: none repeat scroll 0 0 #5A3E33;
+     border-radius: 4px 4px 4px 4px;
+    color: #FDCFC0;
+    float: right;
+    height: 25px;
+    margin: 2px 103px 0 0;
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+}
+.sub_main_activities span{
+      margin:0 0 0 110px;
+       color:#fff;
+     font-size:20px;
+}
+
 .sub_news{
   border-bottom:1px dashed #fdcfc0;
 
 }
-#d{
-  height:30px;
-  width:100px;
-  margin-left:10px;
-  background:#5A3E33;
-  border-radius:10px;
-}
-#d a{
- color:#FDCFC0;
- text-decoration:none;
- padding-left:10px;
- padding-top:5px;
- font-size:10px;
 
-}
 
 .text{
   color:#fadfd4;
   margin-left:70px;
 }
-.sub_main p{
-  color:#fdcfc0;
-  font-size:12px;
-  text-align:center;
 
-  margin-top:20px;
-  margin-left:10px;
-
-}
-.sub_main span{
- margin-left:100px;
- margin-top:0px;
- color:#fff;
- font-size:20px;
-}
 
 #contact{
    height:100px;
@@ -208,25 +247,12 @@
  color:#FDCFC0;
  font-size:14px;
  text-align:center;
+ font-family: 'Habibi',serif;
 
 }
 .branch{
     color:#fff;
  font-size:14px;
+ padding:20px;
  text-sub_maingn:center;
-}
-#sub_banner_content{
-  width:550px;
-  display:block;
-  float:left;
-  height:246px;
-  background:url("women_standing_bg.png") no-repeat bottom left;
-}
-sub_banner_image_title{
- width:400px;
- float:right;
-
-}
-#women_standing{
-   float:left;
 }
