@@ -1,4 +1,10 @@
 WomenSupport::Application.routes.draw do
+  get "banners/new"
+
+  get "banners/create"
+
+  get "banners/destroy"
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
