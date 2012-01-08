@@ -2,12 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 #banner{
+display:block;
    height:329px;
    border-top:4px solid 	#f4b89e;
    border-bottom:4px solid 	#f4b89e;
    background:#ad6443;
 }
 #banner_content{
+display:block;
  width:960px;
  height:329px;
  margin:0 auto;
