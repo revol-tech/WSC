@@ -32,9 +32,12 @@
              </div>
              <div id="gallery">
                    <ul class="slideshow">
-	                    <li class="show"><a href="http://www.google.com"><img src="assets/image1.JPG" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a><p class="slideshow_read">Read More...</p></li>
-	                    <li><a href="http://www.yahoo.com"><img src="assets/image2.jpg" width="600" height="300" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
-                    	<li><a href="http://www.msn.com"><img src="assets/image3.JPG" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+	                    <li class="show"><a href="http://www.google.com"><img src="assets/1.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a><p class="slideshow_read">Read More...</p></li>
+	                    <li><a href="http://www.yahoo.com"><img src="assets/2.jpg" width="600" height="300" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/3.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/4.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/5.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+                    	<li><a href="http://www.msn.com"><img src="assets/6.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
                   </ul>
              </div>
        </div>
@@ -49,33 +52,43 @@
                          <a href="#"><p class="sub_news"> established by 28 professional women promoters on
                              December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
                          <span>1 of 5 >></span>
-                  </div>
-               </div>
+                  </div><!--end of news-->
+               </div><!--end of sub_main-->
                <div class="sub_main_activities">
                        <a href="#"><h2 class="text">Activities</h2></a>
                      <div class="news">
                            <div class="activities_text">
                                    <%= image_tag "DSC_1157.jpg", :class=>"activities_img"%>
                               <p> established by 28 professional women promoters on
+                              <%= link_to "Read more","#", :class=>"activities_read" %>
                                    </p>
-                                      <a><%= link_to "READ MORE","" %> </a>
+
                            </div><!--end of activities_text-->
+                            <div class="activities_text">
+                                   <%= image_tag "DSC_1157.jpg", :class=>"activities_img"%>
+                              <p> established by 28 professional women promoters on
+                              <%= link_to "Read more","#", :class=>"activities_read" %>
+                                   </p>
 
-                     </div>
+                           </div><!--end of activities_text-->
+                            <span>1 of 5 >></span>
+                     </div><!--end of news-->
 
-                 </div>
+                 </div><!--end of sub_main_activities-->
 
 
-                          <span>1 of 5 >></span>
-                     </div>
+
+
 
               <div class="sub_main_activities">
                       <a href="#"><h2 class="text">Branch</h2></a>
                     <div class="news">
                           <%= image_tag "map.jpg",:class=>"map"%>
                                <p class="branch">  Balaju Chowk,Kathmandu</br>
-                                               01-6617807</br>
+                                               +977-1-4387031,+977-1-4388887</br>
                                        wscl2056@gmail.com</p>
 
-                     </div>
-             </div></div>
+                     </div><!--end of news-->
+             </div><!--end of sub_main_activities-->
+
+   </div><!--end of news-->

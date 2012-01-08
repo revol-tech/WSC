@@ -148,11 +148,6 @@
  border-radius:10px;
  background:#ad6443;
 }
-.sub_main_activities{
-   width:290px;
-  margin-left:30px;
-  float:left;
-}
 .sub_main p{
   color:#fdcfc0;
   font-size:12px;
@@ -162,8 +157,11 @@
 .sub_main_activities{
    color:#fdcfc0;
   font-size:12px;
-  margin-left:10px;
+
    padding:15px 15px 15px 15px;
+    width:290px;
+
+  float:left;
 }
 .sub_main span{
  margin:0 0 0 110px;
@@ -184,49 +182,45 @@
 
 }
 .activities_text{
-   height:100px;
+   height:120px;
    border-bottom:1px dashed #fdcfc0;
 }
 .activities_img{
-  float:left;
-  border-radius:10px;
-  margin:15px 0 0 10px;
+  border-radius: 10px 10px 10px 10px;
+    float: left;
+    margin: 20px 0 0 10px;
+
 
 }
 .activities_text p{
- float:right;
- width:175px;
- padding:10px 0 30px;
-}
-.activities_text a{
-text-decoration:none;
-color:#FDCFC0;
-  height:40px;
-  width:150px;
-  border-radius:10px;
-  background:#5a3e33;
+ float: right;
 
+    padding: 6px 0 30px;
+    width: 175px;
+}
+.activities_read{
+   background: none repeat scroll 0 0 #5A3E33;
+     border-radius: 4px 4px 4px 4px;
+    color: #FDCFC0;
+    float: right;
+    height: 25px;
+    margin: 2px 103px 0 0;
+    padding-top: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+}
+.sub_main_activities span{
+      margin:0 0 0 110px;
+       color:#fff;
+     font-size:20px;
 }
 
 .sub_news{
   border-bottom:1px dashed #fdcfc0;
 
 }
-#d{
-  height:30px;
-  width:100px;
-  margin-left:10px;
-  background:#5A3E33;
-  border-radius:10px;
-}
-#d a{
- color:#FDCFC0;
- text-decoration:none;
- padding-left:10px;
- padding-top:5px;
- font-size:10px;
 
-}
 
 .text{
   color:#fadfd4;
@@ -251,10 +245,12 @@ color:#FDCFC0;
  color:#FDCFC0;
  font-size:14px;
  text-align:center;
+ font-family: 'Habibi',serif;
 
 }
 .branch{
     color:#fff;
  font-size:14px;
+ padding:20px;
  text-sub_maingn:center;
 }

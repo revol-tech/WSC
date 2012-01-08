@@ -115,7 +115,8 @@ float:right;
 }
 #main_footer p{
  float:left;
- color:#fff;
+ font-family: 'Habibi',serif;
+ color:#FDCFC0;
  font-size:14px;
   margin-left:10px;
 
@@ -138,8 +139,9 @@ float:right;
 }
 .owner{
   float:right;
-  color:#fff;
+  color:#FDCFC0;
   padding-top:15px;
   font-size:14px;
+  font-family: 'Habibi',serif;
   margin-right:10px;
 }
