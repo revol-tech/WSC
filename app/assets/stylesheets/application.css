@@ -4,7 +4,7 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
 */
-#main_body{
+body{
 
   background:#5a3e33;
 }
@@ -45,7 +45,7 @@ float:right;
   width:960px;
   margin:0 auto;
 }
-#main_wrapper{
+#wrapper{
   width:960px;
   margin:0 auto;
   display:block;
