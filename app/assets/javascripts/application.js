@@ -7,25 +7,3 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-$(document).ready(function(){
-	$('.opa').css('visibility','hidden');
-	$('#sideview').css('visibility','visible');
-
-	$("li").hover(
-		function () {
-			$(this).children('.opa')
-					.css({
-						'visibility':'visible',
-						'opacity':0
-					})
-					.animate({'opacity':1});
-		},
-
-			function () {
-			$(this).children('.opa')
-					.animate({'opacity':0},function(){
-								$(this).css('visibility','hidden')
-							});
-
-		});
-})

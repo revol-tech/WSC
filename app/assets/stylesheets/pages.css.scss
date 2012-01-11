@@ -4,143 +4,106 @@
 
 
 /*................Achievements.........*/
-h1{
+ #achievements{
+  margin-top:60px;
+
+  background:#63473c;
+
+}
+
+
+ #objectives ul{
+list-style-type:lower-roman;
+
+color:#F0BA9E;
+}
+
+#objectives h1,#achievements h1{
  color:#ad6443;
+ text-align:center;
+ font-size:45px;
+ font-family: 'Habibi',serif;
+ text-shadow: -3px -3px 5px black;
+ border-bottom:4px solid white;
 }
-#wrapper_a{
-  border:1px solid;
- width:960px;
-  margin:0 auto;
 
-}
 #objectives{
-  border:1px solid white;
-  height:500px;
-
-
+ background:#63473c;
 }
-p{
+
+
+
+#objectives article,#achievements article{
+  padding:20px;
+}
+
+#objectives p,#achievements p{
+  text-align:justify;
   color:#F0BA9E;
+
+  font-family: 'Habibi',serif;
 }
-#obj_content {
-  height:500px;
 
-  border-radius:10px;
-	}
-	#obj_content  li {
-   list-style:none;
-
-   }
-
- #sideview li{
- list-style:none;
-background-color:#ad6443;
-		width:200px;
-	height:40px;
-	margin-top:2px;
-	margin-left:-30px;
-	font-size:17px;
-}
- #sideview li:hover{
- list-style:none;
-background-color:#5a3e33;
-
-	width:200px;
-	height:40px;
-	margin-top:2px;
-	margin-left:-30px;
-	font-size:17px;
-}
-#sideview a{
+#objectives a,#achievements a{
   text-decoration:none;
   color:#fff;
-}
-#sideview li p{
-margin-left:260px;
-height:225px;
-width:400px;
-text-align:justify;
-margin-top:-67px;
-}
-
-
-
-#main{
-    width:700px;
-    float:right;
-
-
-}
-#main p{
-    font-size:60px;
-    color:#e0e0e0;
-    text-align:center;
-	padding-right:250px;
-	text-shadow: 1px 1px white, -1px -1px #444;
+  font-size:20px;
+  font-family: 'Habibi',serif;
 }
 
 
 
 
 
-
-
-/*......about_us..........."dhami"*/
+/*......contact us..........."dhami"*/
 
 
 
-#background{
-
-    
-    border: 0px solid #000000;
-    text-align: justify;
-    width: 420px;
-}
-#background p{
-padding:0px 5px 0px 5px;
+#form{
+      margin-left:190px;
+			width:500px;
 }
 
-#section2{
- 
-  	
-    float: right;
-
-    width: 500px;
-}
-	
-
-#subtitle{
-	
-    border: 0px solid #fff;
-    margin-top:110px;
-   
-    width: 500px;
-		text-align: justify;
+label
+{
+width: 145px;
+float: left;
+text-align: left;
+margin-right: 20px;
+display: block;
+font-size:16px;
+color:#ad6544;
 }
 
-#subtitle p{
-            padding:0px 5px 0px 5px;
+.submit input
+{
+margin-left: 170px;
 }
 
 
-#vision {
-		
-   	border: 0px solid #fff;
-   
-    margin-top: -720px;
-    width: 490px;
-		padding:0px 5px 0px 5px;
-		text-align: justify;
+/*........our organization........shivwan*/
+
+
+.bod_1 {
+    height: 200px;
+    margin-left: 380px;
+    margin-bottom: 25px;
+
+}
+.bod_1:hover {
+    height: 200px;
+    margin-left: 380px;
+    margin-bottom: 25px;
+     -webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
 }
 
-#vision p{
-          padding:0px 5px 0px 5px;
+.bod_3{
+margin-left:115px;
+margin-bottom:25px;
+
 }
+#objectives h2{
+ color:#F0BA9E;
 
-
-
-
-
-
-
-
+}

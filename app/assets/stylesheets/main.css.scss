@@ -32,18 +32,18 @@ display:block;
 #intro{
   font-size:32px;
   color:#F3b99F;
- float:left;
- margin:40px 0 0 200px;
+
+ margin:15px 0 0 205px;
  height:65px;
   text-shadow: -3px -3px 5px black;
 }
 
 #intro_text{
   font-family: 'Habibi', serif;
-
+  color:#F0BA9E;
   width:410px;
   text-align:justify;
-  float:right;
+  float:left;
 }
 
 #logo {
@@ -51,10 +51,10 @@ display:block;
     border: 3px solid #F2B8A0;
     border-radius: 0 0 10px 10px;
     float: left;
-     left: 190px;
+
 
     position: relative;
-    top: -95px;
+    top: -74px;
     z-index: 1;
 }
 
@@ -68,18 +68,20 @@ display:block;
   width: 272px;
 }
 #sub_banner_content{
-  width:600px;
+
   display:block;
-  float:left;
+   margin:25px 0 0 0;
   height:224px;
   background:url("women_standing_bg.png") no-repeat bottom left;
 }
 #sub_banner_image_title{
  width:325px;
- float:right;
+ margin-left:30px;
+ float:left;
 
 
 }
+
 #women_standing{
    float:left;
 }

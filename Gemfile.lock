@@ -42,6 +42,9 @@ GEM
     arel (2.2.1)
     bcrypt-ruby (3.0.1)
     builder (3.0.0)
+    carrierwave (0.5.8)
+      activesupport (~> 3.0)
+    coderay (0.9.8)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
       railties (~> 3.1.0)
@@ -49,9 +52,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.2.0)
-    carrierwave (0.5.8)
-      activesupport (~> 3.0)
-    coderay (0.9.8)
     devise (1.5.3)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
@@ -169,8 +169,8 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
-  coffee-rails (~> 3.1.1)
   carrierwave
+  coffee-rails (~> 3.1.1)
   jquery-rails
   meta_search (>= 1.1.0.pre)
   pry-rails

@@ -4,11 +4,11 @@
   <title>WomenSupport</title>
   <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
-  <%= stylesheet_link_tag    "application" %>
+  <%= stylesheet_link_tag "application","main","pages", "image_slider" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body id="main_body">
 
           <nav id="nav">
                <ul id="m_nav">
@@ -27,10 +27,10 @@
                     <a href="#" class="facebook"></a>
                     <a href="#" class="twitter"></a>
                     </div>
-
+              <a href="http://localhost:3000/" ><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home"%></a>
 
            </nav>
-
+<%= render :partial => 'banner'%>
 <%= yield %>
  <div id="footer">
       <div id="contact">
@@ -41,11 +41,11 @@
 
       </div>
       <div id="back">
-       <%= image_tag"back_icon.png", :class=>"back_img"%>
-       <span class="back_text">Back To Top</span></div>
+       <a href="#"><%= image_tag"back_icon.png", :class=>"back_img"%></a>
+      <a href="#"> <span class="back_text">Back To Top</span></div></a>
       <div id=main_footer>
               <p>copyright:2012 Women Support Co-Operatives Ltd.All Right Reserved</p>
-              <span class="owner">powered by:Revol-Tech</span>
+              <a href="http//www.revol-tech.com"><span class="owner">powered by:Revol-Tech</span></a>
       </div></div>
 </body>
 </html>
