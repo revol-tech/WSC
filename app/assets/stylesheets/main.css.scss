@@ -57,6 +57,18 @@ display:block;
     top: -74px;
     z-index: 1;
 }
+#logo:hover {
+    background: none repeat scroll 0 0 #FADFD4;
+    border: 3px solid #F2B8A0;
+    border-radius: 0 0 10px 10px;
+    float: left;
+    -moz-transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+
+    position: relative;
+    top: -74px;
+    z-index: 1;
+}
 
 #read_more{
   background-color: #F0BA9E;

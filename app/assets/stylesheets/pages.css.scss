@@ -89,13 +89,16 @@ margin-left: 170px;
     margin-left: 380px;
     margin-bottom: 25px;
 
+
 }
 .bod_1:hover {
     height: 200px;
     margin-left: 380px;
     margin-bottom: 25px;
-     -webkit-transform: rotate(5deg);
--moz-transform: rotate(5deg);
+
+
+-moz-transform: scale(1.1) rotate(10deg);
+-webkit-transform: scale(1.1) rotate(10deg);
 }
 
 .bod_3{
