@@ -13,7 +13,7 @@
           <nav id="nav">
                <ul id="m_nav">
 
-                   <li><%= link_to "About Us", pages_about_us_path %></li>
+                   <li><%= link_to "About Us",pages_about_us_path,:class=>"active" %></li>
                    <li><%= link_to "Services",pages_services_path %></li>
                    <li><%= link_to "Achievements",pages_achievements_path %></li>
                    <li><%=link_to "Our Organization	",pages_Our_organization_path %></li>
@@ -30,7 +30,7 @@
               <a href="/" ><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home"%></a>
 
            </nav>
-<%= render :partial => 'banner'%>
+
 <%= yield %>
  <div id="footer">
       <div id="contact">

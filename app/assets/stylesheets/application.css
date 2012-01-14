@@ -17,6 +17,9 @@ float:right;
   margin:25px;
 
 }
+.active{
+ color:red;
+}
 .social_network_text{
  float:left;
  color:#ad6441;
@@ -55,11 +58,8 @@ float:right;
   width:960px;
   display:block;
   margin:0 auto;
-
-
-
-
 }
+
 #m_nav{
   float:left;
   margin:30px 0 0 155px;
