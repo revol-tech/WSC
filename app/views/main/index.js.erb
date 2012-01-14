@@ -1,0 +1,2 @@
+  $('div#activities_block').html('<%= escape_javascript render(@activities) %>');
+  $('div#paginator').html('<%= escape_javascript(paginate(@activities, :remote => true).to_s) %>');

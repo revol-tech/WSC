@@ -58,6 +58,7 @@ display:block;
     top: -74px;
     z-index: 1;
 }
+
 #logo:hover {
     background: none repeat scroll 0 0 #FADFD4;
     border: 3px solid #F2B8A0;
@@ -69,6 +70,14 @@ display:block;
     position: relative;
     top: -74px;
     z-index: 1;
+}
+
+nav.pagination span{
+margin:0px;
+}
+nav.pagination a{
+text-decoration:none;
+color:#efefef;
 }
 
 #read_more{
@@ -206,6 +215,8 @@ display:block;
   border-radius: 10px 10px 10px 10px;
     float: left;
     margin: 20px 0 0 10px;
+    height:50px;
+    width:auto;
 
 
 }

@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.1.3'
-
+gem 'kaminari'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
@@ -33,7 +33,11 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-group :test do
-  # Pretty printed test output
-  gem 'turn', '~> 0.8.3', :require => false
+#group :test do
+#  # Pretty printed test output
+#  gem 'turn', '~> 0.8.3', :require => false
+#end
+
+group :production do
+  gem 'therubyracer'
 end

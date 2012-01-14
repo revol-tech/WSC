@@ -2,6 +2,8 @@ ActiveAdmin.register Activity do
 
   controller do
       # This code is evaluated within the controller class
+
+
       def new
         @activity = Activity.new()
         # Instance method
@@ -20,7 +22,7 @@ ActiveAdmin.register Activity do
   end
 
   form(:html => { :multipart => true }) do |f|
-    f.inputs "Banner" do
+    f.inputs "Activity" do
       f.input :image_file, :as => :file
       f.input :headline
       f.input :text

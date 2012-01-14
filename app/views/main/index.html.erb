@@ -56,24 +56,14 @@
                </div><!--end of sub_main-->
                <div class="sub_main_activities">
                        <a href="#"><h2 class="text">Activities</h2></a>
-                     <div class="news">
-                           <div class="activities_text">
-                                   <%= image_tag "DSC_1157.jpg", :class=>"activities_img"%>
-                              <p> established by 28 professional women promoters on
-                              <%= link_to "Read more","#", :class=>"activities_read" %>
-                                   </p>
-
-                           </div><!--end of activities_text-->
-                            <div class="activities_text">
-                                   <%= image_tag "DSC_1157.jpg", :class=>"activities_img"%>
-                              <p> established by 28 professional women promoters on
-                              <%= link_to "Read more","#", :class=>"activities_read" %>
-                                   </p>
-
-                           </div><!--end of activities_text-->
-                            <span>1 of 5 >></span>
-                     </div><!--end of news-->
-
+                     <div id="activities" class="news">
+                        <div id="activities_block">
+                          <%= render @activities%>
+                        </div>
+                     <div id="paginator">
+                      <%= paginate @activities, :remote=>true %>
+                     </div>
+                  </div> <!--end of news-->
                  </div><!--end of sub_main_activities-->
 
 

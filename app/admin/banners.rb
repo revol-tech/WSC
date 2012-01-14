@@ -13,7 +13,7 @@ ActiveAdmin.register Banner do
         @banner.caption = params[:banner][:caption]
         @banner.image_path = uploader.to_s
         @banner.save!
-        redirect_to admin_banner_path, :notice => "Banner added successfully!"
+        redirect_to admin_banners_path, :notice => "Banner added successfully!"
       end
   end
 
