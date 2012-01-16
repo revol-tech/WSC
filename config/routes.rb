@@ -21,6 +21,7 @@ WomenSupport::Application.routes.draw do
 
   get "pages/jobs"
 
+
   get "pages/branch"
 
   get "pages/news_event"
