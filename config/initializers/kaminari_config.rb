@@ -7,4 +7,5 @@ Kaminari.configure do |config|
   # config.page_method_name = :page
   # config.param_name = :page
   # Activity.page(2)
+  # NewsAndEvent.page(2)
 end

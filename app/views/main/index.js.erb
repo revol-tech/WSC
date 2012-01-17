@@ -1,2 +1,5 @@
   $('div#activities_block').html('<%= escape_javascript render(@activities) %>');
   $('div#paginator').html('<%= escape_javascript(paginate(@activities, :remote => true).to_s) %>');
+  
+  $('div#news_and_events_block').html('<%= escape_javascript render(@news_and_events) %>');
+  $('div#paginator_news').html('<%= escape_javascript(paginate(@news_and_events, :remote => true).to_s) %>');
