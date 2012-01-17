@@ -2,10 +2,10 @@ class MainController < ApplicationController
   def index
     @activities = Activity.order("created_at").page(params[:page]).per(2)
 
-    respond_to do |format|
-      format.html
-      format.js
-    end
+
+    @news_and_events = NewsAndEvent.order("created_at").page(params[:page]).per(2)
+
+
   end
 
   def new

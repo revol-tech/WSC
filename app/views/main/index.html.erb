@@ -45,14 +45,19 @@
               <div class="sub_main">
                     <a href="#"><h2 class="text">News & Events</h2></a>
                   <div class="news">
-                         <a href="#"><p class="sub_news"> established by 28 professional women promoters on
-                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
-                        <a href="#"> <p class="sub_news"> established by 28 professional women promoters on
-                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
-                         <a href="#"><p class="sub_news"> established by 28 professional women promoters on
-                             December 20, 1999 under the "Cooperative Act, 1992", Government of</p></a>
-                         <span>1 of 5 >></span>
+
+                    <% @news_and_events.each do|news_and_event| %>
+                       <div class="news_and_events_text">
+                          <%= image_tag "#{news_and_event.image_path}", :class=>"activities_img";%>
+                          <p><%= news_and_event.headline%>
+                          <%= link_to "Read more","#", :class=>"activities_read" %>
+                         </p>
+                    </div>
+                     <%end%>
+
+
                   </div><!--end of news-->
+                  <%= paginate @news_and_events %>
                </div><!--end of sub_main-->
                <div class="sub_main_activities">
                        <a href="#"><h2 class="text">Activities</h2></a>
