@@ -7,6 +7,18 @@ ActiveAdmin.register NewsAndEvent do
         # Instance method
       end
 
+       def update
+        @news_and_event = NewsAndEvent.find(params[:id])
+        @news_and_event.save!
+        uploader = ImageUploader.new
+        uploader.store!(params[:news_and_event][:image_file])
+        @news_and_event.headline = params[:news_and_event][:headline]
+        @news_and_event.text = params[:news_and_event][:text]
+        @news_and_event.image_path = uploader.to_s
+        @news_and_event.save!
+        redirect_to admin_activities_path, :notice => "NewsAndEvent updated successfully!"
+      end
+
       def create
         uploader = ImageUploader.new
         uploader.store!(params[:news_and_event][:image_file])

@@ -34,7 +34,9 @@
                       <div id="paginator">
                       <%= paginate @news_and_events, :remote=>true, :param_name => :pagina_news %>
                      </div>
+
                   </div><!--end of news-->
+                  <%= paginate @news_and_events %>
                </div><!--end of sub_main-->
                <div class="sub_main_activities">
                        <a href="#"><h2 class="text">Activities</h2></a>

@@ -9,6 +9,18 @@ ActiveAdmin.register Activity do
         # Instance method
       end
 
+      def update
+        @activity = Activity.find(params[:id])
+        @activity.save!
+        uploader = ImageUploader.new
+        uploader.store!(params[:activity][:image_file])
+        @activity.headline = params[:activity][:headline]
+        @activity.text = params[:activity][:text]
+        @activity.image_path = uploader.to_s
+        @activity.save!
+        redirect_to admin_activities_path, :notice => "Activity updated successfully!"
+      end
+
       def create
         uploader = ImageUploader.new
         uploader.store!(params[:activity][:image_file])
