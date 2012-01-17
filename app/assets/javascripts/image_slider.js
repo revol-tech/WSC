@@ -57,7 +57,7 @@ function gallery() {
 		var desc = next.find('img').attr('alt');
 
 		//Set the fade in effect for the next image, show class has higher z-index
-		next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
+		next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1);
 
 		//Hide the caption first, and then set and display the caption
 		$('#slideshow-caption').slideToggle(300, function () {

@@ -2,13 +2,20 @@
 <html>
 <head>
   <title>WomenSupport</title>
+
   <link href='http://fonts.googleapis.com/css?family=Patua+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="js/mootools-core.js"></script>
+<script type="text/javascript" src="js/mootools-more.js"></script>
+<script type="text/javascript" src="js/inite67d.js?v=1.3"></script>
   <%= stylesheet_link_tag "application","main","pages", "image_slider" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+
 </head>
-<body>
+<body onload="initialize()">
 
           <nav id="nav">
                <ul id="m_nav">
@@ -30,7 +37,7 @@
               <a href="/" ><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home"%></a>
 
            </nav>
-
+<%= render :partial => 'banner'%>
 <%= yield %>
  <div id="footer">
       <div id="contact">
