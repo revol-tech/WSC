@@ -15,12 +15,11 @@
              </div>
              <div id="gallery">
                    <ul class="slideshow">
-	                    <li class="show"><a href="http://www.google.com"><img src="assets/1.jpg" width="600" height="300"  alt="dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a><p class="slideshow_read">Read More...</p></li>
-	                    <li><a href="http://www.yahoo.com"><img src="assets/2.jpg" width="600" height="300" alt=" Dr. Pushpa(President) speaking in WSC 11th Annual generai assembly."/></a></li>
-                    	<li><a href="http://www.msn.com"><img src="assets/3.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
-                    	<li><a href="http://www.msn.com"><img src="assets/4.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
-                    	<li><a href="http://www.msn.com"><img src="assets/5.jpg" width="600" height="300"  alt="Dr. Pushpa (President) speaking in WSC 11th Annual generai assembly."/></a></li>
-                    	<li><a href="http://www.msn.com"><img src="assets/6.jpg" width="600" height="300"  alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."/></a></li>
+
+	                    <% @banners.each do|banner| %>
+	                      <li class="show"><a href="http://www.google.com"><%= image_tag "#{banner.image_path}", :width=>"600", :height=>"300",:alt=>"#{banner.caption}" %></a><p class="slideshow_read">Read More...</p></li>
+	                    <%end%>
+
                   </ul>
              </div>
        </div>
