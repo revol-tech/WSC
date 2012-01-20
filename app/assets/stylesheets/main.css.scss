@@ -211,6 +211,10 @@ color:#efefef;
    height:120px;
    border-bottom:1px dashed #fdcfc0;
 }
+.news_and_events_text{
+   height:120px;
+   border-bottom:1px dashed #fdcfc0;
+}
 .activities_img{
   border-radius: 10px 10px 10px 10px;
     float: left;
@@ -221,6 +225,13 @@ color:#efefef;
 
 }
 .activities_text p{
+ float: right;
+
+    padding: 6px 0 30px;
+    width: 175px;
+}
+
+.news_and_events_text p{
  float: right;
 
     padding: 6px 0 30px;
