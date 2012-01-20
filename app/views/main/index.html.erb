@@ -15,7 +15,6 @@
              </div>
              <div id="gallery">
                    <ul class="slideshow">
-
 	                    <% @banners.each do|banner| %>
 	                      <li class="show"><a href="http://www.google.com"><%= image_tag "#{banner.image_path}", :width=>"600", :height=>"300",:alt=>"#{banner.caption}" %></a><p class="slideshow_read">Read More...</p></li>
 	                    <%end%>
@@ -24,18 +23,16 @@
              </div>
        </div>
        <div id="sub_content">
-              <div class="sub_main">
+              <div class="sub_main_activities">
                     <a href="#"><h2 class="text">News & Events</h2></a>
-                  <div class="news">
-                  	 <div id="news_and_events_block">
-                          <%= render @news_and_events%>
-                     </div>
-                      <div id="paginator">
-                      <%= paginate @news_and_events, :remote=>true, :param_name => :pagina_news %>
-                     </div>
-
+                  <div id="news_and_events" class="news">
+                    <div id="news_and_events_block">
+                      <%= render @news_and_events %>
+                    </div>
+                    <div id="paginator_news">
+                      <%= paginate @news_and_events, :remote => true, :params => {:controller => :main, :action => :news_paginator} %>
+                    </div>
                   </div><!--end of news-->
-                  <%= paginate @news_and_events %>
                </div><!--end of sub_main-->
                <div class="sub_main_activities">
                        <a href="#"><h2 class="text">Activities</h2></a>
@@ -43,11 +40,11 @@
                         <div id="activities_block">
                           <%= render @activities%>
                         </div>
-                     <div id="paginator">
-                      <%= paginate @activities, :remote=>true, :param_name => :pagina_activities %>
-                     </div>
-                  </div> <!--end of news-->
-                 </div><!--end of sub_main_activities-->
+                        <div id="paginator_activities">
+                          <%= paginate @activities, :remote=>true, :params => {:controller => :main, :action => :activities_paginator} %>
+                        </div>
+                     </div> <!--end of news-->
+              </div><!--end of sub_main_activities-->
 
 
 
@@ -55,7 +52,7 @@
 
               <div class="sub_main_activities">
                       <a href="#"><h2 class="text">Branch</h2></a>
-                    <div class="news">
+                    <div id="" class="news">
 
                        <div id="map_canvas" style="width:250px; height:250px; margin:10px 0 0 20px;"></div>
 

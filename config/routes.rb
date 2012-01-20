@@ -41,7 +41,12 @@ WomenSupport::Application.routes.draw do
 
   get "about_us/news_event"
 
-  resources :main
+  resources :main do
+    collection do
+      get 'news_paginator'
+      get 'activities_paginator'
+    end
+  end
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

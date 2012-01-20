@@ -15,12 +15,12 @@
   <%= csrf_meta_tags %>
 
 </head>
-<body onload="initialize()">
+<body onload="initialize()" active =#"red">
 
           <nav id="nav">
                <ul id="m_nav">
 
-                   <li><%= link_to "About Us",pages_about_us_path,:class=>"active" %></li>
+                   <li active=#"red"><%= link_to "About Us",pages_about_us_path,:class=>"active" %></li>
                    <li><%= link_to "Services",pages_services_path %></li>
                    <li><%= link_to "Achievements",pages_achievements_path %></li>
                    <li><%=link_to "Our Organization	",pages_Our_organization_path %></li>
