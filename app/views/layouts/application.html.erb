@@ -7,13 +7,11 @@
   <link href='http://fonts.googleapis.com/css?family=Habibi' rel='stylesheet' type='text/css'>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="js/mootools-core.js"></script>
-<script type="text/javascript" src="js/mootools-more.js"></script>
 <script type="text/javascript" src="js/inite67d.js?v=1.3"></script>
   <%= stylesheet_link_tag "application","main","pages", "image_slider" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </head>
 <body onload="initialize()" active =#"red">
 
@@ -32,7 +30,7 @@
                 <div id="social_network">
                     <span class="social_network_text">Follow Us</span>
                     <a href="#" class="facebook"></a>
-                    <a href="#" class="twitter"></a>
+                    <a href="https://twitter.com/wsc_nepal" class="twitter" data-show-count="false"></a>
                     </div>
               <a href="/" ><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home"%></a>
 
