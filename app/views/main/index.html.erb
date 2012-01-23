@@ -16,9 +16,8 @@
              <div id="gallery">
                    <ul class="slideshow">
 	                    <% @banners.each do|banner| %>
-	                      <li class="show"><a href="http://www.google.com"><%= image_tag "#{banner.image_path}", :width=>"600", :height=>"300",:alt=>"#{banner.caption}" %></a><p class="slideshow_read">Read More...</p></li>
+	   	                      <li class=""><%= image_tag "#{banner.image_path}", :width=>"650",:height=>"auto",:alt=>"#{banner.caption}" %></a></li>
 	                    <%end%>
-
                   </ul>
              </div>
        </div>
