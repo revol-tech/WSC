@@ -263,7 +263,7 @@ color:#efefef;
 
 .text{
   color:#fadfd4;
-  margin-left:70px;
+  text-align:center;
 }
 
 
@@ -292,4 +292,16 @@ color:#efefef;
  font-size:14px;
  padding:0 0 0 20px;
  text-sub_maingn:center;
+}
+
+/*--paginatot--*/
+
+.pagination{
+  position:relative;
+  margin-top:50px;
+}
+
+#news_and_events_block{
+  display:block;
+  height:250;
 }

@@ -16,51 +16,43 @@
              <div id="gallery">
                    <ul class="slideshow">
 	                    <% @banners.each do|banner| %>
-	   	                      <li class=""><%= image_tag "#{banner.image_path}", :width=>"650",:height=>"auto",:alt=>"#{banner.caption}" %></a></li>
+	   	                      <li class=""><%= image_tag "#{banner.image_path}", :width=>"610",:height=>"auto",:alt=>"#{banner.caption}" %></a></li>
 	                    <%end%>
                   </ul>
              </div>
        </div>
        <div id="sub_content">
               <div class="sub_main_activities">
-                    <a href="#"><h2 class="text">News & Events</h2></a>
-                  <div id="news_and_events" class="news">
-                    <div id="news_and_events_block">
-                      <%= render @news_and_events %>
-                    </div>
-                    <div id="paginator_news">
-                      <%= paginate @news_and_events, :remote => true, :params => {:controller => :main, :action => :news_paginator} %>
-                    </div>
-                  </div><!--end of news-->
-               </div><!--end of sub_main-->
-               <div class="sub_main_activities">
-                       <a href="#"><h2 class="text">Activities</h2></a>
-                     <div id="activities" class="news">
-                        <div id="activities_block">
-                          <%= render @activities%>
-                        </div>
-                        <div id="paginator_activities">
-                          <%= paginate @activities, :remote=>true, :params => {:controller => :main, :action => :activities_paginator} %>
-                        </div>
-                     </div> <!--end of news-->
-              </div><!--end of sub_main_activities-->
-
-
-
-
+                <a href="#"><h2 class="text">News & Events</h2></a>
+                <div id="news_and_events" class="news">
+                  <div id="news_and_events_block">
+                    <%= render @news_and_events%>
+                  </div>
+                  <div id="paginator_news">
+                    <%= paginate @news_and_events, :remote => true, :params => {:controller => :main, :action => :news_paginator} %>
+                  </div>
+                </div><!--end of news-->
+              </div><!--end of sub_main-->
 
               <div class="sub_main_activities">
-                      <a href="#"><h2 class="text">Branch</h2></a>
-                    <div id="" class="news">
+                <a href="#"><h2 class="text">Activities</h2></a>
+                <div id="activities" class="news">
+                  <div id="activities_block">
+                    <%= render @activities%>
+                  </div>
+                  <div id="paginator_activities">
+                    <%= paginate @activities, :remote=>true, :params => {:controller => :main, :action => :activities_paginator} %>
+                  </div>
+                </div> <!--end of id activities-->
+              </div><!--end of sub_main_activities-->
 
-                       <div id="map_canvas" style="width:250px; height:250px; margin:10px 0 0 20px;"></div>
-
-
-                               <p class="branch">  Balaju Chowk,Kathmandu</br>
-                                               +977-1-4387031,+977-1-4388887</br>
-                                       wscl2056@gmail.com</p>
-
-                     </div><!--end of news-->
-             </div><!--end of sub_main_activities-->
-
-   </div><!--end of news-->
+              <div class="sub_main_activities">
+                <a href="#"><h2 class="text">Branch</h2></a>
+                <div id="" class="news">
+                  <div id="map_canvas" style="width:250px; height:250px; margin:10px 0 0 20px;"></div>
+                  <p class="branch">  Balaju Chowk,Kathmandu</br>
+                                  +977-1-4387031,+977-1-4388887</br>
+                                     wscl2056@gmail.com</p>
+                </div><!--end of news-->
+            </div><!--end of sub_main_activities-->
+   </div><!--end of sub_content-->
