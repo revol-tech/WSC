@@ -3,13 +3,20 @@
 
 
 
+<div id="slider">
+  <ul class="navigation">
+    <li><a href="#sites">Objectives</a></li>
+    <li><a href="#files">Achievements</a></li>
 
-     <div id="objectives">
-          <article>
-              <h1>Objective</h1>
 
+  </ul>
 
-                        <%= link_to "Tageted Mission:",:class=>"link"%>
+  <!-- element with overflow applied -->
+  <div class="scroll">
+    <!-- the element that will be scrolled during the effect -->
+    <div class="scrollContainer">
+      <!-- our individual panels -->
+      <div class="panel" id="sites"> <h3>Objectives</h3><%= link_to "Tageted Mission:",:class=>"link"%>
 					            <p >The Mission of WSC is to provide quality Micro Finance Services to the largest number people under poverty and
 					    deprived household to improve economic as well as social status of rural and urban women members of WSC.
 					    The Main Goal of WSC is to provide qualitative Microfinance services to  deprived and marginalized women
@@ -44,15 +51,11 @@
 					    their small and idle funds. It strives to provide efficient and economical credit facilities to the deprived communities to
 					    promote local entrepreneurship. Further, it aims to facilitate easy mobilization of funds between rural and urban areas.
 					    The institution also aims to manage capital through various financial intuitions.
-					    </p>
-    </article>
-</div>
-<div id="achievements">
+					    </p> </div>
 
 
-                <article>
-                <h1>Acheivements</h1>
-                  <%= link_to"Oriented Towards Self-Suffeciency:",:class=>"link"%>
+
+      <div class="panel" id="files"> <h3>Achievements</h3> <%= link_to"Oriented Towards Self-Suffeciency:",:class=>"link"%>
 			                <p > WSC is running on profit since one decade. The staffs here are energetically
 				                working in our organization that are dedicated towards the future of organization and
 				               its large number of clients. It is because WSC has been providing good facilities to the working Staffs aswell.
@@ -95,12 +98,7 @@
             						uneducated family have recuced domestic conflict and voilence in vast range. Increament in income
 						            of woman, has changed perception and behaviour of their males towards them and their relationship
 				            		has been elevated to the differnt level.
-				            	</p>
-
-                </article>
-
-
-
-
+    </div>
+  </div>
 </div>
 </div>        
