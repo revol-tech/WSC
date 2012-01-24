@@ -1,0 +1,7 @@
+<% @activities_detail.each do|activity_detail| %>
+  <div id="main_activity">
+    <%= image_tag "#{activity_detail.image_path}", :class=>"image_activity";%>
+    <%= activity_detail.headline%>
+    <%= activity_detail.text%>
+  </div>
+<%end%>

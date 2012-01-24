@@ -1,0 +1,2 @@
+module NewsActivitiesHelper
+end
