@@ -3,135 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-/*................Achievements.........*/
- #achievements{
-  margin-top:60px;
 
-  background:#63473c;
+.panel h3{
+ color:#519aad;
+ margin-left:20px;
 
 }
-
-
- #objectives ul{
-list-style-type:lower-roman;
-
-color:#F0BA9E;
-}
-
-#objectives h1,#achievements h1{
- color:#ad6443;
- text-align:center;
- font-size:45px;
- font-family: 'Habibi',serif;
- text-shadow: -3px -3px 5px black;
- border-bottom:4px solid white;
-}
-
-#objectives{
- background:#63473c;
-}
-
-
-
-#objectives article,#achievements article{
-  padding:20px;
-}
-
-#objectives p,#achievements p{
-  text-align:justify;
-  color:#F0BA9E;
-
-  font-family: 'Habibi',serif;
-}
-
-#objectives a,#achievements a{
-  text-decoration:none;
+.panel p{
   color:#fff;
-  font-size:20px;
-  font-family: 'Habibi',serif;
-}
-
-
-
-
-
-/*......contact us..........."dhami"*/
-
-
-
-#form{
-      margin-left:190px;
-			width:500px;
-}
-
-label
-{
-width: 145px;
-float: left;
-text-align: left;
-margin-right: 20px;
-display: block;
-font-size:16px;
-color:#ad6544;
-}
-
-.submit input
-{
-margin-left: 170px;
-}
-
-
-/*........our organization........shivwan*/
-
-
-.bod_1 {
-    height: 200px;
-    margin-left: 380px;
-    margin-bottom: 25px;
-
-
-}
-.bod_1:hover {
-    height: 200px;
-    margin-left: 380px;
-    margin-bottom: 25px;
-
-
--moz-transform: scale(1.1) rotate(10deg);
--webkit-transform: scale(1.1) rotate(10deg);
-}
-
-.bod_3{
-margin-left:115px;
-margin-bottom:25px;
-
-}
-#objectives h2{
- color:#F0BA9E;
-
-}
-
-/*.....services....*/
-#sub_m_nav ul{
-  list-style:none;
-
-   }
-#sub_m_nav li{
-display:inline-block;
-
-   border-radius:10px;
-
-   text-align:center;
-}
-#sub_m_nav a {
-   text-decoration:none;
-   color:#F0BA9E;
-    margin-left:20px;
-   font-size:20px;
-}
-.column1 {
-    display: block;
-    float: left;
-    margin-right: 15px;
-    width: 220px;
+  padding:0 20px 20px 20px;
+   font-family: 'Habibi',serif;
 }

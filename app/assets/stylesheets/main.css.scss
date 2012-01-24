@@ -1,12 +1,14 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.map_hide{
+display:none;}
 #banner{
 display:block;
    height:329px;
-   border-top:4px solid 	#f4b89e;
-   border-bottom:4px solid 	#f4b89e;
-   background:#ad6443;
+   border-top:4px solid 	#91d0e0;
+   border-bottom:4px solid 	#91d0e0;
+   background:#519aad;
    width:100%;
 }
 #banner_content{
@@ -32,7 +34,7 @@ display:block;
 
 #intro{
   font-size:32px;
-  color:#F3b99F;
+  color:#ffffff;
 
  margin:15px 0 0 205px;
  height:65px;
@@ -41,7 +43,7 @@ display:block;
 
 #intro_text{
   font-family: 'Habibi', serif;
-  color:#F0BA9E;
+  color:#ffffff;
   width:410px;
   text-align:justify;
   float:left;
@@ -55,7 +57,7 @@ display:block;
 
 
     position: relative;
-    top: -74px;
+    top: -10px;
     z-index: 1;
 }
 
@@ -64,11 +66,9 @@ display:block;
     border: 3px solid #F2B8A0;
     border-radius: 0 0 10px 10px;
     float: left;
-    -moz-transform: scale(1.1) ;
--webkit-transform: scale(1.1) ;
 
     position: relative;
-    top: -74px;
+    top: -10px;
     z-index: 1;
 }
 
@@ -81,10 +81,10 @@ color:#efefef;
 }
 
 #read_more{
-  background-color: #F0BA9E;
+  background-color: #545d5c;
   float: right;
   padding: 0px 20px;
-  color:#ad6443;
+  color:#ffffff;
   font-size:20px;
   text-align: center;
   width: 272px;
@@ -135,7 +135,7 @@ color:#efefef;
 .read{
   height:50px;
   width:300px;
-  background:#ad6443;
+  background:#529bae;
   border-radius:10px;
 
 }
@@ -151,7 +151,7 @@ color:#efefef;
   height:300px;
   width:600px;
   border-radius:10px;
-  border:10px solid #ad6443;
+  border:10px solid #529bae;
   overflow:hidden;
 }
 #sub_content{
@@ -172,7 +172,7 @@ color:#efefef;
  width:290px;
   font-family: 'Habibi',serif;
  border-radius:10px;
- background:#ad6443;
+ background:#529bae;
 }
 .sub_main p{
   color:#fdcfc0;
@@ -181,7 +181,7 @@ color:#efefef;
 
 }
 .sub_main_activities{
-   color:#fdcfc0;
+   color:#529bae;
   font-size:12px;
 
    padding:15px 15px 15px 15px;
@@ -238,9 +238,9 @@ color:#efefef;
     width: 175px;
 }
 .activities_read{
-   background: none repeat scroll 0 0 #5A3E33;
+   background: none repeat scroll 0 0 #545d5a;
      border-radius: 4px 4px 4px 4px;
-    color: #FDCFC0;
+    color: #ffffff;
     float: right;
     height: 25px;
     margin: 2px 103px 0 0;
@@ -272,7 +272,7 @@ color:#efefef;
    width:300px;
    margin-left:330px;
    border-radius:10px;
- background:#ad6443;
+ background:#529bae;
  float:left;
  margin-top:50px;
 }
@@ -281,7 +281,7 @@ color:#efefef;
    margin-top:20px;
 }
 #contact p{
- color:#FDCFC0;
+ color:#ffffff;
  font-size:14px;
  text-align:center;
  font-family: 'Habibi',serif;
