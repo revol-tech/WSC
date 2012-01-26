@@ -5,165 +5,173 @@
  *= require_self
 */
 body{
-
-  background:#545d5c;
-}
-
-
-
+      background:#545d5c;
+    }
 #social_network{
-float:right;
-  height:30px;
-  width:137px;
-  display:block;
-  margin-top:25px;
-
-}
-
+      float:right;
+      height:30px;
+      width:137px;
+      display:block;
+      margin-top:25px;
+    }
 .social_network_text{
- float:left;
- color:#ffffff;
-  font-size:12px;
-  padding:8px;
-}
+      float:left;
+      color:#ffffff;
+      font-size:12px;
+      padding:8px;
+    }
 .facebook{
-  height:30px;
-  float:left;
-  width:30px;
-  display:block;
-   background:url("social_network_img.png") no-repeat top left;
-}
+      height:30px;
+      float:left;
+      width:30px;
+      display:block;
+      background:url("social_network_img.png") no-repeat top left;
+    }
 .twitter{
-  height:30px;
-  float:left;
-  width:30px;
-  margin:0 0 0 5px;
-  display:block;
-   background:url("social_network_img.png") no-repeat top right;
-}
-#footer{
-  height:200px;
-  border-top:2px dashed #91D0E0;
-  margin-top:30px;
-  width:960px;
-  margin:0 auto;
-}
+      height:30px;
+      float:left;
+      width:30px;
+      margin:0 0 0 5px;
+      display:block;
+      background:url("social_network_img.png") no-repeat top right;
+    }
 #wrapper{
-  width:960px;
-  margin:0 auto;
-  display:block;
-}
+     width:960px;
+     margin:0 auto;
+     display:block;
+    }
+
+/*........navigation..............*/
+
 #nav{
-  height:80px;
-  width:960px;
-  display:block;
-  margin:0 auto;
-}
+    height:80px;
+    width:960px;
+    display:block;
+    margin:0 auto;
+  }
 
 #m_nav{
-  float:left;
-  margin:30px 0 0 -30px;
-
-
-}
+    float:left;
+    margin:30px 0 0 -30px;
+  }
 
 #m_nav ul,ul.navigation,  #sub_nav ul{
-  list-style:none;
-  margin-top:90px;
-}
+    list-style:none;
+    margin-top:90px;
+  }
 #m_nav li,ul.navigation li, #sub_nav li{
-  margin-left:10px;
-  display:inline;
-
-}
+    margin-left:10px;
+    display:inline;
+  }
 .active{
-color:#519aad !important;
-}
+    color:#519aad !important;
+  }
 .active_nav,ul.navigation a{
-  text-decoration:none;
-  color:#ffffff;
-  font:16px;
-}
+   text-decoration:none;
+   color:#ffffff;
+   font:16px;
+  }
 .active_nav:hover,#sub_nav a:hover,ul.navigation a:hover{
-  text-decoration:none;
-  color:#519aad;
-  font:16px;
-}
+    text-decoration:none;
+    color:#519aad;
+    font:16px;
+  }
 
 #sub_nav{
-  float:left;
-  margin-top:29px;
-}
+    float:left;
+    margin-top:29px;
+  }
 #sub_nav a{
-  text-decoration:none;
-  color:#ffffff;
-  font-size:12px;
-}
+   text-decoration:none;
+   color:#ffffff;
+    font-size:12px;
+  }
 .sub_nav_icon{
-  height:30px;
-  width:50px;
-  display:block;
-  background:url("social_network_img.png") no-repeat top left;
+   height:30px;
+   width:50px;
+   display:block;
+   background:url("social_network_img.png") no-repeat top left;
+  }
 
+/*........end of  navigation..............*/
 
-}
+/*.......footer................*/
+#footer{
+     height:200px;
+     border-top:2px dashed #91D0E0;
+     margin-top:30px;
+     width:960px;
+     margin:0 auto;
+    }
+
 #main_footer{
-  height:50px;
-  background:#529bae;
-  border-radius:10px;
-  margin-top:200px;
-
+   height:50px;
+   background:#529bae;
+   border-radius:10px;
+   margin-top:200px;
 }
 #main_footer p{
- float:left;
- font-family: 'Habibi',serif;
- color:#fff;
- font-size:14px;
-  margin-left:10px;
-
-}
+    float:left;
+    font-family: 'Habibi',serif;
+    color:#fff;
+    font-size:14px;
+    margin-left:10px;
+  }
 #back{
- float:right;
- width:100px;
- margin-top:50px;
-}
+   float:right;
+   width:100px;
+   margin-top:50px;
+  }
 .back_img{
-  margin-left:20px;
-  margin-top:20px;
-
-}
+   margin-left:20px;
+   margin-top:20px;
+  }
 .back_text{
-  font-size:12px;
- color:#FDCFC0;
- float:left;
-
-}
+   font-size:12px;
+   color:#FDCFC0;
+   float:left;
+  }
 .owner{
-  float:right;
-  color:#FDCFC0;
-  padding-top:15px;
-  font-size:14px;
-  font-family: 'Habibi',serif;
-  margin-right:10px;
+   float:right;
+   color:#FDCFC0;
+   padding-top:15px;
+   font-size:14px;
+   font-family: 'Habibi',serif;
+   margin-right:10px;
 }
 
-/*.....text slider......*/
-#sites,#files,#editor{
+/*.......end of  footer................*/
+
+
+/*.....text slider for all pages..........*/
+.panel h3{
+ color:#519aad;
+ margin-left:20px;
+ font-family: 'Habibi',serif;
+
+}
+.panel p{
+  color:#fff;
+  padding:0 20px 20px 20px;
+   font-family: 'Habibi',serif;
+}
+#sites,#files,#editor,#Basundhara,#Balkhu,#mahankaal{
  background:#545d5c;
 
 }
 #slider {
   width: 620px;
+<<<<<<< HEAD
 
 
 p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
 	margin-bottom:20px
+=======
+>>>>>>> new theme and some work on pages
   margin: 0 auto;
   position: relative;
 }
-
 .scroll {
-
   overflow: auto;
   position: relative; /* fix for IE to respect overflow */
   clear: left;

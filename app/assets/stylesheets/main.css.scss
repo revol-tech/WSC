@@ -1,46 +1,41 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-.map_hide{
-display:none;}
+
+
+/*...........banner........*/
 #banner{
-display:block;
+   display:block;
    height:329px;
    border-top:4px solid 	#91d0e0;
    border-bottom:4px solid 	#91d0e0;
    background:#519aad;
    width:100%;
-}
+  }
 #banner_content{
-display:block;
- width:960px;
- height:329px;
- margin:0 auto;
-  background:url("WomenTree_bg.png") no-repeat bottom right;
-}
+   display:block;
+   width:960px;
+   height:329px;
+   margin:0 auto;
+   background:url("WomenTree_bg.png") no-repeat bottom right;
+  }
 
 #content{
   float:left;
   height:300px;
   width:330px;
-
-}
-
+ }
 #content p{
-  color:#fdcfc0;
-
+  color:#fff;
   font-size:14px;
-}
-
+ }
 #intro{
   font-size:32px;
   color:#ffffff;
-
- margin:15px 0 0 205px;
- height:65px;
+  margin:15px 0 0 205px;
+  height:65px;
   text-shadow: -3px -3px 5px black;
-}
-
+ }
 #intro_text{
   font-family: 'Habibi', serif;
   color:#ffffff;
@@ -54,31 +49,22 @@ display:block;
     border: 3px solid #F2B8A0;
     border-radius: 0 0 10px 10px;
     float: left;
-
-
     position: relative;
     top: -10px;
     z-index: 1;
-}
+  }
 
 #logo:hover {
     background: none repeat scroll 0 0 #FADFD4;
     border: 3px solid #F2B8A0;
     border-radius: 0 0 10px 10px;
     float: left;
-
     position: relative;
     top: -10px;
     z-index: 1;
-}
+   }
 
-nav.pagination span{
-margin:0px;
-}
-nav.pagination a{
-text-decoration:none;
-color:#efefef;
-}
+
 
 #read_more{
   background-color: #545d5c;
@@ -221,12 +207,9 @@ color:#efefef;
     margin: 20px 0 0 10px;
     height:50px;
     width:auto;
-
-
-}
+  }
 .activities_text p{
- float: right;
-
+    float: right;
     padding: 6px 0 30px;
     width: 175px;
 }
@@ -256,15 +239,22 @@ color:#efefef;
 }
 
 .sub_news{
-  border-bottom:1px dashed #fdcfc0;
-
-}
-
-
+    border-bottom:1px dashed #fdcfc0;
+    }
 .text{
+
   color:#fadfd4;
   text-align:center;
-}
+    color:#fadfd4;
+    margin-left:70px;
+    }
+nav.pagination span{
+     margin:0px;
+    }
+nav.pagination a{
+    text-decoration:none;
+    color:#efefef;
+   }
 
 
 #contact{
@@ -272,21 +262,20 @@ color:#efefef;
    width:300px;
    margin-left:330px;
    border-radius:10px;
- background:#529bae;
- float:left;
- margin-top:50px;
-}
+   background:#529bae;
+   float:left;
+   margin-top:50px;
+  }
 .map{
-  margin-left:50px;
-   margin-top:20px;
-}
+    margin-left:50px;
+    margin-top:20px;
+  }
 #contact p{
- color:#ffffff;
- font-size:14px;
- text-align:center;
- font-family: 'Habibi',serif;
-
-}
+    color:#ffffff;
+    font-size:14px;
+    text-align:center;
+    font-family: 'Habibi',serif;
+   }
 .branch{
     color:#fff;
  font-size:14px;
@@ -304,4 +293,7 @@ color:#efefef;
 #news_and_events_block{
   display:block;
   height:250;
-}
+    font-size:14px;
+    padding:0 0 0 20px;
+    text-sub_maingn:center;
+   }
