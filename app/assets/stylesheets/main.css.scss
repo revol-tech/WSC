@@ -305,3 +305,16 @@ color:#efefef;
   display:block;
   height:250;
 }
+
+.map_css{
+  margin:10px 0 0 20px;
+  width:250px;
+}
+
+/****googlemap***/
+
+#basic-modal-content {
+  display:none;
+}
+
+#simplemodal-container a.modalCloseImg {background:none; right:-14px; width:22px; height:26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/basic/x.png',sizingMethod='scale');}
