@@ -20,8 +20,9 @@
 
 <body onload="initialize()" active =#"red">
      <nav id="nav">
-       <a href="/"><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home"%></a>
+
           <ul id="m_nav">
+
               <li><%= link_to "About Us",pages_about_us_path , :class => "active_nav"  %></li>
               <li><%= link_to "Services",pages_services_path,:class=>"active_nav" %></li>
               <li><%= link_to "Achievements",pages_achievements_path,:class=>"active_nav" %></li>
@@ -50,11 +51,11 @@
 
       </div>
       <div id="back">
-       <a href="#"><%= image_tag"back_icon.png", :class=>"back_img"%></a>
-      <a href="#"> <span class="back_text">Back To Top</span></div></a>
+       <a href="#"><%= image_tag"up_Arrow.png", :class=>"back_img"%></a>
+      </div>
       <div id=main_footer>
               <p>copyright:2012 Women Support Co-Operatives Ltd.All Right Reserved</p>
-              <a href="http//www.revol-tech.com"><span class="owner">powered by:Revol-Tech</span></a>
+              <a href="http//www.revol-tech.com.np" class="owner">powered by:<span >Revol-Tech</span></a>
       </div></div>
 
 </body>

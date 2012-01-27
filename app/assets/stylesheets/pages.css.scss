@@ -3,7 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
+#sub_page_logo {
+    float: left;
+    position: relative;
+    top: -85px;
+    z-index: 1;
+}
 
 /*--------jobs-----------dhami*/
 #wrapper h1{
