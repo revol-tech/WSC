@@ -1,7 +1,7 @@
+
 <div class="news_and_events_text">
-  <%= image_tag "#{news_and_event.image_path}", :class=>"activities_img";%>
-  <p>
-    <%= news_and_event.headline%>
-    <%= link_to "Read more","../news_activities/news_detail", :class=>"activities_read" %>
-  </p>
+
+  <ul class="news_list">
+   <li> <%= link_to "#{news_and_event.headline}","../news_activities/news_detail", :class=>"activities_read" %></li>
+  </ul>
 </div>

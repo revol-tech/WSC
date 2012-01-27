@@ -53,12 +53,11 @@
 		            </div>
                 <div id="" class="news">
                   <div id='basic-modal'>
-			<input type='button' name='basic' value='Demo' class='basic'/>
+                   <%= image_tag "map.jpg",:class=>"map"%>
+			<input type='button' name='basic' value='google_map' class='basic'/>
 		</div>
 
-		<div id="basic-modal-content">
-			/***map yeha load garna***/
-		</div>
+
 
                   <p class="branch">  Balaju Chowk,Kathmandu</br>
                                   +977-1-4387031,+977-1-4388887</br>
@@ -66,3 +65,5 @@
                 </div><!--end of news-->
             </div><!--end of sub_main_activities-->
    </div><!--end of sub_content-->
+   </div>
+   <%= render :partial => 'footer'%>

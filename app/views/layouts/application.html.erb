@@ -9,9 +9,6 @@
         <%= stylesheet_link_tag "application","main","pages", "image_slider" %>
         <%= javascript_include_tag "application" %>
         <%= csrf_meta_tags %>
-        <script src="jquery.scrollTo-1.4.2.jsjquery.scrollTo-1.4.2.js" type="text/javascript"></script>
-        <script src="jquery.localscroll-1.2.7-min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="jquery.serialScroll-1.2.2-min.js" type="text/javascript" charset="utf-8"></script>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id))
                 {js=d.createElement   (s);js.id=id;js.src="//platform.twitter.com/widgets.js";
                 fjs.parentNode.insertBefore     (js,fjs);}}(document,"script","twitter-wjs");
@@ -20,43 +17,32 @@
 
 <body onload="initialize()" active =#"red">
      <nav id="nav">
-
-          <ul id="m_nav">
+          <div id="social_network">
+                    <span class="social_network_text">Follow Us</span>
+                    <a href="#" class="facebook"></a>
+                    <a href="https://twitter.com/wsc_nepal" class="twitter" data-show-count="false"></a>
+                    </div>
+                <div id="sub_nav">
+                    <ul >
+               <li><%= link_to "Jobs",pages_jobs_path, :class => "active_nav" %></li>
+               <li><a><%= link_to "Branches",pages_branch_path, :class => "active_nav" %></a></li>
+           </ul>
+           </div>
+ <div  id="m_nav">
+          <ul>
 
               <li><%= link_to "About Us",pages_about_us_path , :class => "active_nav"  %></li>
               <li><%= link_to "Services",pages_services_path,:class=>"active_nav" %></li>
               <li><%= link_to "Achievements",pages_achievements_path,:class=>"active_nav" %></li>
               <li><%=link_to "Our Organization	",pages_Our_organization_path,:class=>"active_nav" %></li>
            </ul>
-           <ul id="sub_nav">
-               <li><%= link_to "Jobs",pages_jobs_path, :class => "active_nav" %></li>
-               <li><a><%= link_to "Branches",pages_branch_path, :class => "active_nav" %></a></li>
-           </ul>
-                <div id="social_network">
-                    <span class="social_network_text">Follow Us</span>
-                    <a href="#" class="facebook"></a>
-                    <a href="https://twitter.com/wsc_nepal" class="twitter" data-show-count="false"></a>
-                    </div>
-              <a href="/" >
+</div>
+
 
            </nav>
 
 <%= yield %>
- <div id="footer">
-      <div id="contact">
-            <p>Women Support cooperative ltd.</br>
-               Balaju Chowk,Kathmandu</br>
-                +977-1-4387031,+977-1-4388887</br>
-                wscl2056@gmail.com</p>
 
-      </div>
-      <div id="back">
-       <a href="#"><%= image_tag"up_Arrow.png", :class=>"back_img"%></a>
-      </div>
-      <div id=main_footer>
-              <p>copyright:2012 Women Support Co-Operatives Ltd.All Right Reserved</p>
-              <a href="http//www.revol-tech.com.np" class="owner">powered by:<span >Revol-Tech</span></a>
-      </div></div>
 
 </body>
 </html>

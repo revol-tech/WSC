@@ -118,7 +118,7 @@ display:block;
 
 #m_content{
   height:330px;
-  margin:30px 0 0 0;
+  margin:60px 0 0 0;
   display:block;
 
 }
@@ -161,7 +161,7 @@ display:block;
    height:430px;
    display:block;
    margin:0 auto;
-  margin:30px 0 60px 0px;
+  margin:60px 0 0px 0px;
 
 }
 .sub_main{
@@ -216,11 +216,11 @@ margin:0 30px 0 0;
 }
 .activities_text{
    height:120px;
-   border-bottom:1px dashed #fdcfc0;
+   border-bottom:1px dashed #545D5C;
 }
 .news_and_events_text{
-   height:120px;
-   border-bottom:1px dashed #fdcfc0;
+   height:90px;
+   border-bottom:1px dashed #545D5C;
 }
 .activities_img{
   border-radius: 10px 10px 10px 10px;
@@ -238,20 +238,20 @@ margin:0 30px 0 0;
 .news_and_events_text p{
  float: right;
 
-    padding: 6px 0 30px;
-    width: 175px;
+    padding: 20px;
+
 }
 .activities_read{
-   background: none repeat scroll 0 0 #545d5a;
+
      border-radius: 4px 4px 4px 4px;
     color: #ffffff;
-    float: right;
+
     height: 25px;
     margin: 2px 103px 0 0;
     padding-top: 4px;
     text-align: center;
     text-decoration: none;
-    width: 70px;
+
 }
 .sub_main_activities span{
       margin:0 0 0 110px;
@@ -279,12 +279,12 @@ nav.pagination a{
 
 
 #contact{
-   height:80px;
+
    width:280px;
-   margin-left:330px;
+
    border-radius:10px;
    background:#636969;
-   float:left;
+
    display:block;
    margin-top:50px;
    padding:10px;
@@ -294,8 +294,9 @@ nav.pagination a{
  background: #027c02;
  }
 .map{
-    margin-left:50px;
-    margin-top:20px;
+   width:250px;
+   height:250px;
+   margin:20px 0 0 20px;
   }
 #contact p{
     color:#ffffff;
@@ -332,10 +333,19 @@ nav.pagination a{
 
 #basic-modal-content {
   display:none;
+
 }
 
-#simplemodal-container a.modalCloseImg {background:none; right:-14px; width:22px; height:26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/basic/x.png',sizingMethod='scale');}
+#simplemodal-container a.modalCloseImg {background:none; right:-14px; width:22px; height:26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/basic/x.png',sizingMethod='scale');
     font-size:14px;
-    padding:15px 10px;;
+    padding:15px 10px;
     text-sub_maingn:center;
    }
+
+
+
+/*..........news and events....*/
+
+.news_list ul{
+list-style:none;
+  } 
