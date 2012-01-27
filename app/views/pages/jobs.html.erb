@@ -1,49 +1,98 @@
-
 <div id="wrapper">
-      <form>
+<a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
+       <form>
+
+
+<form>
+
 <h1>PERSONAL DETAILS</h1>
    <p><label for="name"> Full Name:</label><input type="text" id="name" /></P>
    <p><label for="address">Address</label><input type="text" id="address" /></P>
-   <p><label for="icno.">IC Number</label><input type="text" id="icno." /></P>
+
 	<p><label for="citizen">Citizen</label><input type="text" id="citizen" /></P>
-	<label for="gender">Gender:</label>Male<input type="radio" name="sex" value="male" />
-Female<input type="radio" name="sex" value="female" />
-	<p><labelfor="married"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marital Status</strong>
+<div id="sex">	<label for="gender">Gender:</label>Male<input type="radio" name="sex" value="male" />
+Female<input type="radio" name="sex" value="female" /></div>
+<div id="married">Marital Status
+<div id="marital">
 <select name="marital">
 <option>Single</option>
 <option>Married</option>
-</select></P>
-<td class="style26">&nbsp;Date of Birth </td>
-<td class="style25">
+</select></div></div>
+<p id="date"><td>Date of Birth </td>
+<div id="month">
+<td>
+<select name="day">
+<option value="1">1 </option>
+<option value="2">2</option>
+<option value="3">3 </option>
+<option value="4">4 </option>
+<option value="5">5 </option>
+<option value="6">6 </option>
+<option value="7">7 </option>
+<option value="8">8 </option>
+<option value="9">9 </option>
+<option value="10">10 </option>
+<option value="11">11 </option>
+<option value="12">12 </option>
+<option value="13">13 </option>
+<option value="14">14 </option>
+<option value="15">15 </option>
+<option value="16">16 </option>
+<option value="17">17 </option>
+<option value="18">18 </option>
+<option value="19">19 </option>
+<option value="20">20 </option>
+<option value="21">21 </option>
+<option value="22">22 </option>
+<option value="23">23 </option>
+<option value="24">24 </option>
+<option value="25">25 </option>
+<option value="26">26 </option>
+<option value="27">27 </option>
+<option value="28">28 </option>
+<option value="29">29 </option>
+<option value="30">30 </option>
+<option value="31">31 </option>
+<option value="32">32 </option>
+</select>
 <select name="month">
 <option value="1">January </option>
 <option value="2">February </option>
-<option value="3">Mac </option>
+<option value="3">March </option>
 <option value="4">April </option>
 <option value="5">May </option>
 <option value="6">June </option>
 <option value="7">July </option>
 <option value="8">August </option>
 <option value="9">September </option>
-<option value="10">Oktober </option>
+<option value="10">October </option>
 <option value="11">November </option>
-<option value="12">Disember </option>
+<option value="12">December </option>
 </select>
-<select name="day">
-<option value="1">January </option>
-<option value="2">February </option>
-<option value="3">Mac </option>
-<option value="4">April </option>
-<option value="5">May </option>
-<option value="6">June </option>
-<option value="7">July </option>
-<option value="8">August </option>
-<option value="9">September </option>
-<option value="10">Oktober </option>
-<option value="11">November </option>
-<option value="12">Disember </option>
-</select>
+
 <select name="year">
+<option value="2012">2012 </option>
+<option value="2011">2011 </option>
+<option value="2010">2010 </option>
+<option value="2009">2009 </option>
+<option value="2008">2008 </option>
+<option value="2007">2007 </option>
+<option value="2006">2006 </option>
+<option value="2005">2005 </option>
+<option value="2004">2004 </option>
+<option value="2003">2003 </option>
+<option value="2002">2002 </option>
+<option value="2001">2001 </option>
+<option value="2000">2000 </option>
+<option value="1999">1999 </option>
+<option value="1998">1998 </option>
+<option value="1997">1997 </option>
+<option value="1996">1996 </option>
+<option value="1995">1995 </option>
+<option value="1994">1994 </option>
+<option value="1993">1993 </option>
+<option value="1992">1992 </option>
+<option value="1991">1991 </option>
 <option value="1990">1990 </option>
 <option value="1989">1989 </option>
 <option value="1988">1988 </option>
@@ -95,22 +144,61 @@ Female<input type="radio" name="sex" value="female" />
 <option value="1942">1942 </option>
 <option value="1941">1941 </option>
 <option value="1940">1940 </option>
-</select></br>
-<td class="style26">&nbsp;Driving License </td>
-<td class="style25">
+</select></div></p>
+<div id="licence"><td>Driving License </td>
+<div id="drive">
+<td>
 <select name="driving">
 <option>Yes</option>
 <option>No</option>
-</select>
+</select></div><div id="any">
 (
 <em>if any</em>
-)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Telephone Number</strong>
-<input id="number" type="text" size="20" name="number"></br>
-<strong>Email Address</strong>
-<input id="email" type="text" size="40" name="email">
+)</div></div><br>
+
+<div id="tele">Telephone Number
+<input id="number" type="text" name="number"></div></br>
+<div id="mail">Email Address
+<input id="Email" type="text" name="email"></div>
+<<<<<<< HEAD
 </td>
 </tr>
+<p>
+<label for="message">Text</label>
+<textarea id="message" type="text"></textarea>
+</p>
+<p>
+<tr>
+<td align="right">
+<font face="Arial" size="2">
+<label for="upload">Upload File:</label>
+</font>
+</td>
+<p>
+<td>
+<input type="file" size="38" name="UploadFile">
+</td>
+</tr>
+</td>
+</tr>
+<p>
+<label for="message">Text</label>
+<textarea id="message" type="text"></textarea>
+</p>
+<p>
+<tr>
+<td align="right">
+<font face="Arial" size="2">
+<label for="upload">Upload File:</label>
+</font>
+</td>
+<p>
+<td>
+<input type="file" size="38" name="UploadFile">
+</td>
+</tr>
+
+<div id="work">
 <p align="center">
 <strong>Working Experience</strong>
 </p>
@@ -213,4 +301,175 @@ Female<input type="radio" name="sex" value="female" />
 </tr>
 </tbody>
 </table>
+</td>
+</tr>
+<tr>
+<td class="style25" height="200">&nbsp;</td>
+<td class="style25"></div>
+<div id="education">
+<p align="center">
+<strong>
+<font size="2">Education Background</font>
+</strong>
+</p>
+<table height="130" cellspacing="0" cellpadding="0" border="1" align="center" width="767">
+<tbody>
+<tr bordercolor="#333333">
+<td width="90">
+<div align="center">
+<font size="1">Year Start </font>
+</div>
+</td>
+<td width="90">
+<div align="center">
+<font size="1">Year End </font>
+</div>
+</td>
+<td width="300">
+<div align="center">
+<font size="1">Name of School</font>
+</div>
+</td>
+<td width="144">
+<div align="center">
+<font size="1">College/University</font>
+</div>
+</td>
+<td width="129">
+<div align="center">
+<font size="1">Result</font>
+</div>
+</td>
+</tr>
+<tr bordercolor="#333333">
+<td height="24">
+<input type="text" size="15" name="yest1">
+</td>
+<td>
+<input type="text" size="15" name="yeen1">
+</td>
+<td>
+<input type="text" size="50" name="school1">
+</td>
+<td>
+<input type="text" name="college1">
+</td>
+<td>
+<input type="text" name="result1">
+</td>
+</tr>
+<tr bordercolor="#333333">
+<td height="24">
+<input type="text" size="15" name="yest2">
+</td>
+<td>
+<input type="text" size="15" name="yeen2">
+</td>
+<td>
+<input type="text" size="50" name="school2">
+</td>
+<td>
+<input type="text" name="college2">
+</td>
+<td>
+<input type="text" name="result2">
+</td>
+</tr>
+<tr bordercolor="#333333">
+<td height="24">
+<input type="text" size="15" name="yest3">
+</td>
+<td>
+<input type="text" size="15" name="yeen3">
+</td>
+<td>
+<input type="text" size="50" name="school3">
+</td>
+<td>
+<input type="text" name="college3">
+</td>
+<td>
+<input type="text" name="result3">
+</td>
+</tr>
+<tr bordercolor="#333333">
+<td height="24">
+<input type="text" size="15" name="yest4">
+</td>
+<td>
+<input type="text" size="15" name="yeen4">
+</td>
+<td>
+<input type="text" size="50" name="school4">
+</td>
+<td>
+<input type="text" name="college4">
+</td>
+<td>
+<input type="text" name="result4">
+</td>
+</tr>
+<tr bordercolor="#333333">
+<td>
+<input type="text" size="15" name="yest5">
+</td>
+<td>
+<input type="text" size="15" name="yeen5">
+</td>
+<td>
+<input type="text" size="50" name="school5">
+</td>
+<td>
+<input type="text" name="college5">
+</td>
+<td>
+<input type="text" name="result5">
+</td>
+</tr>
+<tr bordercolor="#333333">
+<td>
+<input type="text" size="15" name="yest6">
+</td>
+<td>
+<input type="text" size="15" name="yeen6">
+</td>
+<td>
+<input type="text" size="50" name="school6">
+</td>
+<td>
+<input type="text" name="college6">
+</td>
+<td>
+<input type="text" name="result6"></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="3">
+<p></p>
+<p>
+<input type="submit" value="Submit" name="Submit">
+</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr bgcolor="#333333">
+<td height="19" bgcolor="#666666" colspan="2">
+<span class="style18">
+<span class="style24">
+<span class="style23"></span>
+</span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
 </form>
+</div>

@@ -1,4 +1,8 @@
 WomenSupport::Application.routes.draw do
+  get "news_activities/news_detail"
+
+  get "news_activities/activities_detail"
+
   get "banners/new"
 
   get "banners/create"

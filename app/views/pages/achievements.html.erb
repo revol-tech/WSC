@@ -1,15 +1,22 @@
 
  <div id="wrapper">
 
+<a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
+
+<div id="slider">
+  <ul class="navigation">
+    <li><a href="#sites">Objectives</a></li>
+    <li><a href="#files">Achievements</a></li>
 
 
+  </ul>
 
-     <div id="objectives">
-          <article>
-              <h1>Objective</h1>
-
-
-                        <%= link_to "Tageted Mission:",:class=>"link"%>
+  <!-- element with overflow applied -->
+  <div class="scroll">
+    <!-- the element that will be scrolled during the effect -->
+    <div class="scrollContainer">
+      <!-- our individual panels -->
+      <div class="panel" id="sites"> <h3>Objectives</h3><span> Tageted Mission:</span>
 					            <p >The Mission of WSC is to provide quality Micro Finance Services to the largest number people under poverty and
 					    deprived household to improve economic as well as social status of rural and urban women members of WSC.
 					    The Main Goal of WSC is to provide qualitative Microfinance services to  deprived and marginalized women
@@ -20,7 +27,7 @@
 					           </p>
 
 
-			                      <%= link_to"Main Objective:",:class=>"link"%>
+			                      <a> Main Objective:</a>
 					            <p >The main objective of WSC is to uplift  the Economic Status of poor and marginalized women of rural
 					              and as well as urban areas.  In order to achieve the objectives, WSC is dedicated to work for the following specific
 					              ideas:</br>
@@ -36,7 +43,7 @@
 
 
 
-			                   <%= link_to"Building Local Capacity And Fund Mobilization:",:class=>"link"%>
+			                   <a> Building Local Capacity And Fund Mobilization:</a>
 					    <p >WSC's programs are designed on strengthening the capacity of local Micro-enterprise, institutions and organizations to
 					    promote the local entrepreneurships. Efforts are made to enhance women's capacities in developing enterprises and generating
 					    employment opportunities that ultimately help to raise the status of women of the program areas.
@@ -44,15 +51,11 @@
 					    their small and idle funds. It strives to provide efficient and economical credit facilities to the deprived communities to
 					    promote local entrepreneurship. Further, it aims to facilitate easy mobilization of funds between rural and urban areas.
 					    The institution also aims to manage capital through various financial intuitions.
-					    </p>
-    </article>
-</div>
-<div id="achievements">
+					    </p> </div>
 
 
-                <article>
-                <h1>Acheivements</h1>
-                  <%= link_to"Oriented Towards Self-Suffeciency:",:class=>"link"%>
+
+      <div class="panel" id="files"> <h3>Achievements</h3> <a>Oriented Towards Self-Suffeciency:</a>
 			                <p > WSC is running on profit since one decade. The staffs here are energetically
 				                working in our organization that are dedicated towards the future of organization and
 				               its large number of clients. It is because WSC has been providing good facilities to the working Staffs aswell.
@@ -62,7 +65,7 @@
 
             					</p>
 
-			            <%= link_to"Woman and Economic Empowerment:",:class=>"link"%>
+			            <a>Woman and Economic Empowerment:</a>
 					            <p >WSC has been playing its role for the families that are economically weak.
 					                It has been encouraging people and giving various training on vegitable farming,
 				                	cash-crop growing and organic farming etc by providing low interest loans.
@@ -76,7 +79,7 @@
 		            			</p>
 
 
-		             	<%= link_to"Creation of Self-employment and Solidarity:",:class=>"link"%>
+		             	<a>Creation of Self-employment and Solidarity:</a>
 				              	<p >Women support Microfinance program has given earning oppertunity to the poor family by
 				               	loan, training support and knowledge. From this, they have already started their small business
               					at local level. They have started small micro enterprises like poultary farming, vegitable farming,
@@ -88,19 +91,14 @@
 
 
 
-		            	<%= link_to"Social empowerment Reduced Gender Voilence:",:class=>"link"%>
+		            	<a>Social empowerment Reduced Gender Voilence:</a>
 			            		<p >Since women are taught to be involved in decision making process with their husbands and male
 						             partner by expressing their views and opinion. This has brought a drastic change in lifestyle
 		     				        of the family that were economically suffering. The awareness programs conducted among illetrate and
             						uneducated family have recuced domestic conflict and voilence in vast range. Increament in income
 						            of woman, has changed perception and behaviour of their males towards them and their relationship
 				            		has been elevated to the differnt level.
-				            	</p>
-
-                </article>
-
-
-
-
+    </div>
+  </div>
 </div>
 </div>        

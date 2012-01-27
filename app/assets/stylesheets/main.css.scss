@@ -1,133 +1,136 @@
 // Place all the styles related to the main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*...........banner........*/
 #banner{
-display:block;
+   display:block;
    height:329px;
-   border-top:4px solid 	#f4b89e;
-   border-bottom:4px solid 	#f4b89e;
-   background:#ad6443;
+
+   background:#519aad;
    width:100%;
-}
+  }
 #banner_content{
-display:block;
- width:960px;
- height:329px;
- margin:0 auto;
-  background:url("WomenTree_bg.png") no-repeat bottom right;
-}
+   display:block;
+   width:960px;
+   height:329px;
+    background:url('women.png') no-repeat bottom right;
+   margin:0 auto;
+
+  }
 
 #content{
   float:left;
-  height:300px;
-  width:330px;
-
-}
-
+  height:330px;
+  width:300px;
+  display:block;
+  overflow:hidden;
+ }
 #content p{
-  color:#fdcfc0;
-
+  color:#fff;
   font-size:14px;
-}
-
+  margin:18px 0 19px 0 ;
+ }
 #intro{
+float:right;
   font-size:32px;
-  color:#F3b99F;
-
- margin:15px 0 0 205px;
- height:65px;
+color:#fff;
+margin:30px 0px 0 20px;
+  font-family:'aerial';
+  height:65px;
   text-shadow: -3px -3px 5px black;
-}
-
+ }
 #intro_text{
-  font-family: 'Habibi', serif;
-  color:#F0BA9E;
-  width:410px;
-  text-align:justify;
-  float:left;
-}
+  font-family: 'arial', serif;
+  color:#ffffff;
+  display:block;
+line-height:24px;
+ width:734px;
+ float:right;
+margin:0 0 0px 0;
 
+}
 #logo {
-    background: none repeat scroll 0 0 #FADFD4;
-    border: 3px solid #F2B8A0;
-    border-radius: 0 0 10px 10px;
-    float: left;
+   margin:30px 20px 0 0;
+   float:left;
+   height:194px;
+   width:172px;
+   display:block;
 
-
-    position: relative;
-    top: -74px;
-    z-index: 1;
 }
 
-#logo:hover {
-    background: none repeat scroll 0 0 #FADFD4;
-    border: 3px solid #F2B8A0;
-    border-radius: 0 0 10px 10px;
-    float: left;
-    -moz-transform: scale(1.1) ;
--webkit-transform: scale(1.1) ;
 
-    position: relative;
-    top: -74px;
-    z-index: 1;
-}
 
-nav.pagination span{
-margin:0px;
-}
-nav.pagination a{
-text-decoration:none;
-color:#efefef;
-}
-
-#read_more{
-  background-color: #F0BA9E;
+.read_more{
+  background-color: #636969;
   float: right;
-  padding: 0px 20px;
-  color:#ad6443;
+  padding: 5px 10px;
+  color:#ffffff;
   font-size:20px;
   text-align: center;
-  width: 272px;
+  border-radius:5px;
+  text-decoration:none;
+   display:block;
+
+}
+.read_more:hover{
+  background-color: #027c02;
+
+}
+.read_more_big {
+   background-color: #636969;
+  float: right;
+  padding: 5px 0px;
+  color:#ffffff;
+  font-size:20px;
+  text-align: center;
+  border-radius:5px;
+  text-decoration:none;
+   display:block;
+   width:100%;
+
+}
+.read_more_big:hover{
+  background-color: #027c02;
+
 }
 #sub_banner_content{
-
-  display:block;
-   margin:25px 0 0 0;
-  height:224px;
-  background:url("women_standing_bg.png") no-repeat bottom left;
-}
-#sub_banner_image_title{
- width:325px;
- margin-left:30px;
- float:left;
+margin:20px 0 0 0;
+height:65px;
+width:319px;
+display:block;
+float:left;
 
 
 }
+#main_banner_content{
 
-#women_standing{
-   float:left;
+height:223px;
+float:left;
+display:block;
+
+
+
 }
 
-#title_img{
-  float: right;
-  margin-top: 12px;
-  margin-bottom:12px;
-  width: 318px;
-}
+
 
 #m_content{
-  height:350px;
-  margin-top:30px;
+  height:330px;
+  margin:30px 0 0 0;
+  display:block;
 
 }
 
 #image{
   height:170px;
   width:160px;
-  margin-left:80px;
+  margin-left:66px;
   border:2px solid #fff;
   border-radius:10px;
   overflow:hidden;
+  display:block;
 
 }
 
@@ -135,7 +138,7 @@ color:#efefef;
 .read{
   height:50px;
   width:300px;
-  background:#ad6443;
+  background:#529bae;
   border-radius:10px;
 
 }
@@ -148,15 +151,17 @@ color:#efefef;
 }
 #gallery{
   float:right;
-  height:300px;
+  height:310px;
   width:600px;
   border-radius:10px;
-  border:10px solid #ad6443;
+  border:10px solid #636969;
   overflow:hidden;
 }
 #sub_content{
-   height:450px;
-
+   height:430px;
+   display:block;
+   margin:0 auto;
+  margin:30px 0 60px 0px;
 
 }
 .sub_main{
@@ -168,11 +173,12 @@ color:#efefef;
 }
 .news{
  float:left;
- height:350px;
- width:290px;
-  font-family: 'Habibi',serif;
+ height:360px;
+ width:300px;
+ display:block;
+  font-family: 'arial',serif;
  border-radius:10px;
- background:#ad6443;
+ background:#636969;
 }
 .sub_main p{
   color:#fdcfc0;
@@ -181,11 +187,12 @@ color:#efefef;
 
 }
 .sub_main_activities{
-   color:#fdcfc0;
+   color:#fff;
   font-size:12px;
-
-   padding:15px 15px 15px 15px;
-    width:290px;
+display:block;
+height:430px;
+margin:0 30px 0 0;
+    width:300px;
 
   float:left;
 }
@@ -221,12 +228,9 @@ color:#efefef;
     margin: 20px 0 0 10px;
     height:50px;
     width:auto;
-
-
-}
+  }
 .activities_text p{
- float: right;
-
+    float: right;
     padding: 6px 0 30px;
     width: 175px;
 }
@@ -238,9 +242,9 @@ color:#efefef;
     width: 175px;
 }
 .activities_read{
-   background: none repeat scroll 0 0 #5A3E33;
+   background: none repeat scroll 0 0 #545d5a;
      border-radius: 4px 4px 4px 4px;
-    color: #FDCFC0;
+    color: #ffffff;
     float: right;
     height: 25px;
     margin: 2px 103px 0 0;
@@ -256,37 +260,49 @@ color:#efefef;
 }
 
 .sub_news{
-  border-bottom:1px dashed #fdcfc0;
-
-}
-
-
+    border-bottom:1px dashed #fdcfc0;
+    }
 .text{
-  color:#fadfd4;
+
+
   text-align:center;
-}
+    color:#fff;
+
+    }
+nav.pagination span{
+     margin:0px;
+    }
+nav.pagination a{
+    text-decoration:none;
+    color:#efefef;
+   }
 
 
 #contact{
-   height:100px;
-   width:300px;
+   height:80px;
+   width:280px;
    margin-left:330px;
    border-radius:10px;
- background:#ad6443;
- float:left;
- margin-top:50px;
-}
-.map{
-  margin-left:50px;
-   margin-top:20px;
-}
-#contact p{
- color:#FDCFC0;
- font-size:14px;
- text-align:center;
- font-family: 'Habibi',serif;
+   background:#636969;
+   float:left;
+   display:block;
+   margin-top:50px;
+   padding:10px;
+  }
+ #contact:hover{
 
-}
+ background: #027c02;
+ }
+.map{
+    margin-left:50px;
+    margin-top:20px;
+  }
+#contact p{
+    color:#ffffff;
+    font-size:14px;
+    line-height:20px;
+    font-family: 'arial',serif;
+   }
 .branch{
     color:#fff;
  font-size:14px;
@@ -304,6 +320,7 @@ color:#efefef;
 #news_and_events_block{
   display:block;
   height:250;
+
 }
 
 .map_css{
@@ -318,3 +335,7 @@ color:#efefef;
 }
 
 #simplemodal-container a.modalCloseImg {background:none; right:-14px; width:22px; height:26px; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/basic/x.png',sizingMethod='scale');}
+    font-size:14px;
+    padding:15px 10px;;
+    text-sub_maingn:center;
+   }
