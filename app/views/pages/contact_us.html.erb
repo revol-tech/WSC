@@ -2,7 +2,18 @@
  <div id="wrapper">
 
 
- <form id="form">
+<div id="slider">
+  <ul class="navigation">
+    <li><a href="#sites">Contact Us</a></li>
+
+  </ul>
+
+  <!-- element with overflow applied -->
+  <div class="scroll">
+    <!-- the element that will be scrolled during the effect -->
+    <div class="scrollContainer">
+      <!-- our individual panels -->
+      <div class="panel" id="sites"> <h3>Contact Us</h3><form id="form">
 		<p><label for="name">Name:</label><input type="text" id="name" /></P>
 		<p><label for="email">E-email:</label><input type="text" id="email"/></p>
    <p><label for="contact">Contact No:</label><input type="text" /></p>
@@ -10,7 +21,8 @@
 <label for="gender">Gender:</label>Male<input type="radio" name="sex" value="male" />
 Female<input type="radio" name="sex" value="female" />
 <p class="submit"><input type="submit" value="Submit" /></p>
- </form>
+ </form> </div>
+
 
 
 
