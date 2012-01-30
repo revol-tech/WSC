@@ -1,4 +1,5 @@
 <%= render :partial => 'banner'%>
+<div id="main_wrapper">
 <div id="wrapper">
       <div id="m_content">
              <div id="content">
@@ -23,7 +24,9 @@
        </div>
        <div id="sub_content">
               <div class="sub_main_activities">
-                <a href="#"><h2 class="text">News & Events</h2></a>
+              <div  class="text">
+                <h2>News & Events</h2>
+                </div>
                 <div id="news_and_events" class="news">
                   <div id="news_and_events_block">
                     <%= render @news_and_events%>
@@ -35,7 +38,9 @@
               </div><!--end of sub_main-->
 
               <div class="sub_main_activities">
-                <a href="#"><h2 class="text">Activities</h2></a>
+               <div  class="text">
+                <h2>Activities</h2>
+                </div>
                 <div id="activities" class="news">
                   <div id="activities_block">
                     <%= render @activities%>
@@ -47,7 +52,9 @@
               </div><!--end of sub_main_activities-->
 
               <div class="sub_main_activities" style="margin:0 0 0 0;">
-                <a href="#"><h2 class="text">Branch</h2></a>
+               <div  class="text">
+                <h2>Branch</h2>
+                </div>
                 <div id="basic-modal-content">
 			            <div id="map_canvas" style="width:960px; height:500px"></div>
 		            </div>
@@ -57,8 +64,6 @@
 			<input type='button' name='basic' value='google_map' class='basic'/>
 		</div>
 
-
-
                   <p class="branch">  Balaju Chowk,Kathmandu</br>
                                   +977-1-4387031,+977-1-4388887</br>
                                      wscl2056@gmail.com</p>
@@ -66,4 +71,6 @@
             </div><!--end of sub_main_activities-->
    </div><!--end of sub_content-->
    </div>
+
    <%= render :partial => 'footer'%>
+   </div>

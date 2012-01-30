@@ -6,12 +6,10 @@
 */
 *{
  margin:0 auto;
- paddong:0;
+ padding:0;
 
 }
-body{
-      background:#545d5c;
-    }
+
 #social_network{
       float:right;
       height:30px;
@@ -48,32 +46,42 @@ body{
 
        background:url("social_network_hover_img.png") no-repeat top right;
     }
+#main_wrapper{
+ background-color:#545d5c;
+ width:100%;
+display:block;
+float:left;
+
+}
 #wrapper{
      width:960px;
-     margin:0 auto;
+    margin:0 auto;;
+      padding:0 0 60px 0;
      display:block;
-     background:url('border_Img.png')repeat-x left bottom;
+     background:url('border_Img.png')repeat-x left bottom #545d5c;
     }
 
 /*........navigation..............*/
 
 #nav{
-    height:80px;
-    width:960px;
-    display:block;
-    margin:0 auto;
-
-  }
+    height:100px;
+ display:block;
+background:#545d5c;
+}
+#main_nav{
+  width:960px;
+  margin:0 auto;
+  display:block;
+}
 
 #m_nav{
-    float:left;
-    margin:30px 0 0 150px;
-  }
+    float:right;
+}
 
 #m_nav ul,ul.navigation,  #sub_nav ul{
     list-style:none;
-    margin-top:90px;
-    width:700px;
+    margin-top:30px;
+
   }
 #m_nav li,ul.navigation li, #sub_nav li{
     margin-left:10px;
@@ -96,8 +104,8 @@ font-family:'teXGyreAdventorRegular';
   }
 
 #sub_nav{
-    float:left;
-    margin:30px 0 0 60px;
+    float:right;
+
   }
 #sub_nav a{
    text-decoration:none;
@@ -168,60 +176,6 @@ width:100%;
 /*.......end of  footer................*/
 
 
-/*.....text slider for all pages..........*/
-.panel h3{
- color:#519aad;
- margin-left:20px;
- font-family: 'Habibi',serif;
-
-}
-.panel p{
-  color:#fff;
-  padding:0 20px 20px 20px;
-   font-family: 'Habibi',serif;
-   width:530px;
-}
-#sites,#files,#editor,#Basundhara,#Balkhu,#mahankaal{
- background:#545d5c;
-
-}
-#slider {
-  width: 620px;
-  margin-left:155px;
-}
-
-
-p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
-	margin-bottom:20px
-
-  margin: 0 auto;
-  position: relative;
-}
-.scroll {
-  overflow: auto;
-  position: relative; /* fix for IE to respect overflow */
-
-
-}
-
-.scrollContainer div.panel {
-  padding: 20px;
-
-  width: 580px; /* change to 560px if not using JS to remove rh.scroll */
-}
-.scrollButtons {
-  position: absolute;
-  top: 150px;
-  cursor: pointer;
-}
-
-.scrollButtons.left {
-  left: -20px;
-}
-
-.scrollButtons.right {
-  right: -20px;
-}
 
 
 /*-----------board members---------*/

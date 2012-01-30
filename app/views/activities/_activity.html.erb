@@ -1,7 +1,14 @@
 <div class="activities_text">
-  <%= image_tag "#{activity.image_path}", :class=>"activities_img";%>
-  <p>
+
+
+
+<div class="activities_img fl" >
+  <%= image_tag "#{activity.image_path}" %>
+</div>
+<div class="text_Block fr">
+<div class="activity_title fr">
     <%= activity.headline%>
+    </div>
     <%= link_to "Read more","../news_activities/activities_detail", :class=>"activities_read" %>
-  </p>
+</div>
 </div>
