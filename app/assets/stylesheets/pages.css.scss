@@ -2,7 +2,54 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/*...........branch jquery slider.....*/
+#slider {
+  width: 620px;
+  margin: 0 auto;
+  position: relative;
+}
+.panel h3{
+ color:#519aad;
+  font:normal 24px "arial",serif;
 
+}
+.panel p {
+text-align:justify;
+font:normal "arial",serif;
+color:#fff;
+}
+.panel span {
+ color:#519aad;
+font:normal  15px "arial",serif;
+margin:20px 0 0 0;
+}
+.scroll {
+
+  overflow: auto;
+  position: relative; /* fix for IE to respect overflow */
+
+
+}
+
+.scrollContainer div.panel {
+  padding: 20px;
+
+  width: 580px; /* change to 560px if not using JS to remove rh.scroll */
+}
+.scrollButtons {
+  position: absolute;
+  top: 150px;
+  cursor: pointer;
+}
+
+.scrollButtons.left {
+  left: -20px;
+}
+
+.scrollButtons.right {
+  right: -20px;
+}
+/*...........end of branch jquery slider.....*/
 #sub_page_logo {
     float: left;
     position: relative;
@@ -18,7 +65,7 @@
 }
 
 label{
-       font-family: 'arial;
+       font-family: 'arial'';
 }
 
 #sex{
@@ -156,33 +203,68 @@ border-top:5px solid #545d5c;
   display:block;
   float:right;
   background:#545d5c;
-  width:100px;
-  text-align:center;
-  height:20px;
 
   padding:10px;
   margin:0 0 30px 0;
   border-radius:5px;
-  color:#fff;
-  font:'arial',serif;
+
 }
-.content_title:hover{
+.content_title a,.objective_title a{
+text-align:center;
+color:#fff;
+  font:'arial',serif;
+  text-align:center;
+  text-decoration:none;
+
+}
+.content_title:hover ,.objective_title:hover{
 background:#027C02;
 
 }
-#wrapper_2{
+#wrapper_2,#wrapper_3{
   background:#fff;
  padding:30px 0 30px 0;
   width:100%;
   float:left;
 }
-.objectives_text{
-
- float:right;
+.objective_text{
+ border-top:5px solid #545d5c;
+ float:left;
  padding-top:20px;
- width:745px;
+ width:960px;
  display:block;
   font:normal 16px/21px "arial",serif;
  color:#545d5c;
 
+}
+.objective_title{
+  display:block;
+  float:left;
+  background:#545d5c;
+
+  padding:10px;
+  margin:0 0 30px 0;
+  border-radius:5px;
+
+}
+
+
+/*...........services............*/
+
+h1{
+  color:#545d5c;
+
+  font:normal "arial",serif;
+  padding:0 0 25px 0;
+}
+h2{
+  color:#519aad;
+  font:normal "arial",serif;
+    padding:12px 0;
+}
+h3{
+  color:#545d5c;
+
+  font:normal 14px "arial",serif;
+  padding:15px 0;
 }
