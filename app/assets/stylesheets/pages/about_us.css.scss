@@ -1,0 +1,78 @@
+/*........about us...........*/
+
+#wrapper_1{
+  background:#519aad;
+ padding:30px 0 30px 0;
+  width:100%;
+  float:left;
+}
+
+.main_content{
+  width:960px;
+  margin:0 auto;
+   display:block;
+}
+.content_text{
+border-top:5px solid #545d5c;
+ float:right;
+ padding-top:20px;
+ width:768px;
+ display:block;
+  font:normal 16px/21px "arial",serif;
+ color:#fff;
+
+}
+.intro_content{
+  float:right;
+  width:768px;
+
+}
+
+.content_title{
+  display:block;
+  float:right;
+  background:#545d5c;
+
+  padding:10px;
+  margin:0 0 30px 0;
+  border-radius:5px;
+
+}
+.content_title a,.objective_title a{
+text-align:center;
+color:#fff;
+  font:'arial',serif;
+  text-align:center;
+  text-decoration:none;
+
+}
+.content_title:hover ,.objective_title:hover{
+background:#027C02;
+
+}
+#wrapper_2,#wrapper_3{
+  background:#fff;
+ padding:30px 0 30px 0;
+  width:100%;
+  float:left;
+}
+.objective_text{
+ border-top:5px solid #545d5c;
+ float:left;
+ padding-top:20px;
+ width:960px;
+ display:block;
+  font:normal 16px/21px "arial",serif;
+ color:#545d5c;
+
+}
+.objective_title{
+  display:block;
+  float:left;
+  background:#545d5c;
+
+  padding:10px;
+  margin:0 0 30px 0;
+  border-radius:5px;
+
+}

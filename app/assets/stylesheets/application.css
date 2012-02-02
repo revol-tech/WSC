@@ -47,15 +47,15 @@
        background:url("social_network_hover_img.png") no-repeat top right;
     }
 #main_wrapper{
- background-color:#545d5c;
- width:100%;
-display:block;
-float:left;
+  background-color:#545d5c;
+  width:100%;
+  display:block;
+  float:left;
 
 }
 #wrapper{
      width:960px;
-    margin:0 auto;;
+     margin:0 auto;;
       padding:0 0 60px 0;
      display:block;
      background:url('border_Img.png')repeat-x left bottom #545d5c;
@@ -65,8 +65,8 @@ float:left;
 
 #nav{
     height:100px;
- display:block;
-background:#545d5c;
+    display:block;
+    background:#545d5c;
 }
 #main_nav{
   width:960px;
@@ -174,6 +174,25 @@ width:100%;
 
    color:#fff;
 }
+#contact p{
+    color:#ffffff;
+    font:normal 14px/21px 'arial',serif;
+   }
+   #contact{
+
+   width:280px;
+
+   border-radius:10px;
+   background:#636969;
+
+   display:block;
+   margin-top:50px;
+   padding:10px;
+  }
+ #contact:hover{
+
+ background: #027c02;
+ }
 
 /*.......end of  footer................*/
 

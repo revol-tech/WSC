@@ -3,124 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-/*...........banner........*/
-.fl{
-float:left;
-}
-.fr{
-float:right;
-}
-#banner{
-   display:block;
-   height:329px;
-
-   background:#519aad;
-   width:100%;
-  }
-#banner_content{
-   display:block;
-   width:960px;
-   height:329px;
-    background:url('women.png') no-repeat bottom right;
-   margin:0 auto;
-
-  }
-
-#content{
-  float:left;
-  height:330px;
-  width:300px;
-  display:block;
-  overflow:hidden;
- }
-#content p{
-  color:#fff;
-  font-size:14px;
-  margin:18px 0 19px 0 ;
- }
-#intro{
-float:right;
-  font-size:32px;
-color:#fff;
-margin:30px 0px 0 20px;
- font-family: 'Parisienne', cursive;
-  height:65px;
-  text-shadow: -3px -3px 5px black;
- }
-#intro_text{
-  font-family: 'arial', serif;
-  color:#ffffff;
-  display:block;
-line-height:24px;
- width:734px;
- float:right;
-margin:0 0 0px 0;
-
-}
-#logo {
-   margin:30px 20px 0 0;
-   float:left;
-   height:194px;
-   width:172px;
-   display:block;
-
-}
-
-
-
-.read_more{
-  background-color: #636969;
-  float: right;
-  padding: 5px 10px;
-  color:#ffffff;
-  font-size:20px;
-  text-align: center;
-  border-radius:5px;
-  text-decoration:none;
-   display:block;
-   font-family:"arial", serif;
-
-}
-.read_more:hover{
-  background-color: #027c02;
-
-}
-.read_more_big {
-   background-color: #636969;
-  float: right;
-  padding: 5px 0px;
-  color:#ffffff;
-  font-size:20px;
-  text-align: center;
-  border-radius:5px;
-  text-decoration:none;
-   display:block;
-   width:100%;
-      font-family:"arial", serif;
-
-}
-.read_more_big:hover{
-  background-color: #027c02;
-
-}
-#sub_banner_content{
-margin:20px 0 0 0;
-height:65px;
-width:319px;
-display:block;
-float:left;
-
-
-}
-#main_banner_content{
-
-height:223px;
-float:left;
-display:block;
-
-
-
-}
 
 
 
@@ -179,6 +61,8 @@ display:block;
 
   float:left;
 }
+
+/*........news and Events..........*/
 .news{
  float:left;
  height:360px;
@@ -244,22 +128,8 @@ nav.pagination a{
 
    }
 
+/*......end of news and events.....*/
 
-#contact{
-
-   width:280px;
-
-   border-radius:10px;
-   background:#636969;
-
-   display:block;
-   margin-top:50px;
-   padding:10px;
-  }
- #contact:hover{
-
- background: #027c02;
- }
 .map{
    width:260px;
    height:230px;
@@ -267,10 +137,7 @@ nav.pagination a{
    border:10px solid #519aad;
    border-radius:5px 5px 5px 5px;
   }
-#contact p{
-    color:#ffffff;
-    font:normal 14px/21px 'arial',serif;
-   }
+
 .branch{
     color:#fff;
  font:normal 14px/21px 'arial',serif;

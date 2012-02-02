@@ -1,0 +1,48 @@
+
+#slider {
+  width: 620px;
+  margin: 0 auto;
+  position: relative;
+}
+.panel h3{
+ color:#519aad;
+  font:normal 24px "arial",serif;
+
+}
+.panel p {
+text-align:justify;
+font:normal "arial",serif;
+color:#fff;
+}
+.panel span {
+ color:#519aad;
+font:normal  15px "arial",serif;
+margin:20px 0 0 0;
+}
+.scroll {
+
+  overflow: auto;
+  position: relative; /* fix for IE to respect overflow */
+
+
+}
+
+.scrollContainer div.panel {
+  padding: 20px;
+
+  width: 580px; /* change to 560px if not using JS to remove rh.scroll */
+}
+.scrollButtons {
+  position: absolute;
+  top: 150px;
+  cursor: pointer;
+}
+
+.scrollButtons.left {
+  left: -20px;
+}
+
+.scrollButtons.right {
+  right: -20px;
+}
+/*...........end of branch jquery slider.....*/
