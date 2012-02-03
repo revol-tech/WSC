@@ -67,6 +67,7 @@
     height:100px;
     display:block;
     background:#545d5c;
+     font-family: 'arial',serif;
 }
 #main_nav{
   width:960px;
@@ -198,5 +199,7 @@ width:100%;
 
 
 
-
+#activity{
+    float:right;
+}
 /*-----------board members---------*/

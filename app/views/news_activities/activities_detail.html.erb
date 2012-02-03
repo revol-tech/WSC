@@ -1,3 +1,7 @@
+<div id="main_wrapper">
+  <div id="wrapper">
+  <a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
+<div id="activity">
 <% @activities_detail.each do|activity_detail| %>
   <div id="main_activity">
     <%= image_tag "#{activity_detail.image_path}", :class=>"image_activity";%>
@@ -5,3 +9,6 @@
     <%= activity_detail.text%>
   </div>
 <%end%>
+</div>
+ </div>
+  </div>
