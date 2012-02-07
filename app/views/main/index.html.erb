@@ -15,13 +15,28 @@
 
              </div>
              <div id="gallery">
-                   <ul class="slideshow">
-	                    <% @banners.each do|banner| %>
-	   	                      <li class=""><%= image_tag "#{banner.image_path}", :width=>"610",:height=>"auto",:alt=>"#{banner.caption}" %></a></li>
+             <div id="slider">
+                  <div id="mask-gallery">
+  	                <ul id="gallery1">
+  	                 <% @banners.each do|banner| %>
+	   	                      <li><%= image_tag "#{banner.image_path}", :width=>"610",:height=>"auto"%></li>
 	                    <%end%>
-                  </ul>
+			              </ul>
+	                </div>
+
+	                <div id="mask-excerpt">
+	                  <ul id="excerpt">
+	                    <% @banners.each do|banner| %>
+	   	                      <li><%= "#{banner.caption}" %></a></li>
+	                    <%end%>
+		                </ul>
+	                </div>
+              </div>
+
+                <a href="#" id="btn-prev"><%= image_tag "left.png"%></a>
+	              <a href="#" id="btn-next"><%= image_tag "right.png"%></a>
              </div>
-       </div>
+          </div>
        <div id="sub_content">
               <div class="sub_main_activities">
               <div  class="text">
