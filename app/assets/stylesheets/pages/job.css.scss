@@ -1,4 +1,13 @@
+#wrapper_6{
+  background:#519aad;
+ padding:30px 0 30px 0;
+  width:100%;
+  float:left;
+}
+form{
+ margin-top:50px;
 
+}
 label{
 width: 160px;
 float: left;
@@ -6,11 +15,24 @@ text-align: left;
 margin-right: 20px;
 display: block;
 font-size:16px;
-color:#ad6544;
-font-family: 'Habibi',serif;
+color:#545D5C;
+font-family: 'arial',serif;
 }
+form h1 {
+    color: #545D5C;
+    padding: 20px 0 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+form p{
+   padding:12px 0 0 0;
+
+}
+strong,td{
+ color:#fff;
 
 
+}
 #sex{
 			color: #aa6544;
 }
@@ -22,25 +44,25 @@ font-family: 'Habibi',serif;
 }
 
 #work{
-				color: #aa6544;
-				font-family: 'Habibi',serif;
+				color: #545D5C;
+				font-family: 'arial',serif;
 
 }
 
 #education{
 						color: #aa6544;
-						font-family: 'Habibi',serif;
+						font-family: 'arial',serif;
 }
 
 
 #training{
 					color: #aa6544;
-					font-family: 'Habibi',serif;
+					font-family: 'arial',serif;
 }
 
 #language{
 					color: #aa6544;
-					font-family: 'Habibi',serif;
+					font-family: 'arial',serif;
 }
 #submit{
 					margin-left:250px;

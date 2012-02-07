@@ -1,7 +1,15 @@
-<% @news_detail.each do|news_detail| %>
-  <div id="main_activity">
-    <%= image_tag "#{news_detail.image_path}", :class=>"image_activity";%>
-    <%= news_detail.headline%>
-    <%= news_detail.text%>
-  </div>
-<%end%>
+<div id="main_wrapper">
+   <div id="wrapper">
+      <a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
+        <% @news_detail.each do|news_detail| %>
+            <div id="main_activity" style="display:block;margin:5px 0 0 132px;padding:0 0 140px 0;">
+              <div id="headline" style="display:block;width:600px;padding:0 0 0 50px;float:left;">
+               <h1 style="color:#519aad;font:normal 22px/21px 'arial',serif;float:left;"> <%= news_detail.headline%>
+               <p style="float:left;color:#fff;font:normal 16px/21px 'arial',serif;"> <%= news_detail.text%>
+              </div>
+            </div>
+        <%end%>
+
+   </div>
+   <%= render :partial => 'footer'%>
+</div>

@@ -1,4 +1,18 @@
 WomenSupport::Application.routes.draw do
+  get "profile/pushpa"
+
+  get "profile/anadashobha"
+
+  get "profile/menkumari"
+
+  get "profile/satyamalla"
+
+  get "profile/prami"
+
+  get "profile/jaleswori"
+
+  get "profile/nilima"
+
   get "news_activities/news_detail"
 
   get "news_activities/activities_detail"

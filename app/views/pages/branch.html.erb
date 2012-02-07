@@ -1,6 +1,13 @@
 <div id="main_wrapper">
-<div id="wrapper">
-<a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
+<div id="wrapper_5">
+
+  <div class="main_content">
+<a href="/"><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home",:style=>"display: block;
+    float: left;
+    height: 194px;
+    margin: 0 20px 0 0;
+    width: 172px;" %></a>
+
    <div id="slider">
   <ul class="navigation">
     <li><a href="#sites">Balaju</a></li>
@@ -71,5 +78,7 @@
 	</div>
  </div>
 </div>
+</div>
+
  <%= render :partial => 'footer'%>
 </div>

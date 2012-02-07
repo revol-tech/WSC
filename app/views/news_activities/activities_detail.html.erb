@@ -1,14 +1,21 @@
 <div id="main_wrapper">
-  <div id="wrapper">
+  <div id="wrapper_7" >
   <a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
 <div id="activity">
 <% @activities_detail.each do|activity_detail| %>
-  <div id="main_activity">
-    <%= image_tag "#{activity_detail.image_path}", :class=>"image_activity";%>
-    <%= activity_detail.headline%>
-    <%= activity_detail.text%>
+  <div id="main_activity" style="display:block;margin:0 0 0 60px;padding:0 0 160px 0;">
+     <div id="activity_image" style="float:left;display:block;border:2px solid #519aad;'">
+         <%= image_tag "#{activity_detail.image_path}", :class=>"image_activity"%>
+       </div>
+      <div id="headline" style="display:block;width:600px;padding:0 0 0 50px;float:left;">
+    <h1 style="color:#519aad;font:normal 22px/21px 'arial',serif;float:left;"><%= activity_detail.headline%></h1>
+    <p style="float:left;color:#fff;font:normal 16px/21px 'arial',serif;"><%= activity_detail.text%></p>
+    </div>
   </div>
 <%end%>
 </div>
  </div>
+
+     <%= render :partial => 'footer'%>
+  </div>
   </div>

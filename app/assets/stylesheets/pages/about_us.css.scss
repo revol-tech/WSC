@@ -1,6 +1,6 @@
 /*........about us...........*/
 
-#wrapper_1{
+#wrapper_1,#wrapper_5,#wrapper_8{
   background:#519aad;
  padding:30px 0 30px 0;
   width:100%;
@@ -12,7 +12,7 @@
   margin:0 auto;
    display:block;
 }
-.content_text{
+.content_text,.profile{
 border-top:5px solid #545d5c;
  float:right;
  padding-top:20px;
@@ -27,7 +27,33 @@ border-top:5px solid #545d5c;
   width:768px;
 
 }
+.profile_img{
+  float:left;
+  display:block;
 
+}
+.profile_text{
+ float:left;
+ display:block;
+ margin:115px 0 0 40px;
+
+}
+
+.profile_text p{
+  color:#519AAD;
+
+}
+.profile_text span{
+  color:#545D5C;
+ font-family: "arial",serif;
+
+}
+.profile_cont{
+  width:960px;
+  height:200px;
+  padding:30px 0 0 0;
+
+}
 .content_title{
   display:block;
   float:right;
@@ -38,7 +64,7 @@ border-top:5px solid #545d5c;
   border-radius:5px;
 
 }
-.content_title a,.objective_title a{
+.content_title a,.objective_title a,.profile_title a{
 text-align:center;
 color:#fff;
   font:'arial',serif;
@@ -46,17 +72,17 @@ color:#fff;
   text-decoration:none;
 
 }
-.content_title:hover ,.objective_title:hover{
+.content_title:hover ,.objective_title:hover,.profile_title:hover{
 background:#027C02;
 
 }
-#wrapper_2,#wrapper_3{
+#wrapper_2,#wrapper_3,#wrapper_9{
   background:#fff;
  padding:30px 0 30px 0;
   width:100%;
   float:left;
 }
-.objective_text{
+.objective_text,.profile{
  border-top:5px solid #545d5c;
  float:left;
  padding-top:20px;
@@ -66,7 +92,7 @@ background:#027C02;
  color:#545d5c;
 
 }
-.objective_title{
+.objective_title,.profile_title{
   display:block;
   float:left;
   background:#545d5c;

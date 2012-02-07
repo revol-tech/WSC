@@ -1,11 +1,11 @@
 
 #slider {
-  width: 620px;
+
   margin: 0 auto;
   position: relative;
 }
 .panel h3{
- color:#519aad;
+ color:#027C02;
   font:normal 24px "arial",serif;
 
 }
@@ -13,20 +13,40 @@
 text-align:justify;
 font:normal "arial",serif;
 color:#fff;
+padding:0 0 30px 0;
+
 }
 .panel span {
- color:#519aad;
+ color:#545D5C;
 font:normal  15px "arial",serif;
 margin:20px 0 0 0;
 }
 .scroll {
 
   overflow: auto;
-  position: relative; /* fix for IE to respect overflow */
 
+    float: left;
+
+    overflow: hidden;
+    width: 640px;
+}
+.navigation{
+ margin:0 0 0 95px;
+}
+#slider li{
+
+display:block;
+  float:left;
+  background:#545d5c;
+
+  padding:10px;
+  margin:6px 0 0 12px ;
+  border-radius:5px;
+}
+#slider li:hover{
+background:#027C02;
 
 }
-
 .scrollContainer div.panel {
   padding: 20px;
 

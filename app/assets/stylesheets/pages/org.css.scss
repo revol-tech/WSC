@@ -3,7 +3,7 @@
     padding: 30px 0 0 0;
 }
 .sub_director{
-padding: 30px 0 30px 30px;
+padding: 0px 0 0px 30px;
 float:left;
 }
 .bod_1,.bod_2{
@@ -11,7 +11,7 @@ float:left;
 
 }
 .director p,.sub_director p {
- color:#519aad;
+ color:#545D5C;
 
 }
 .director a:hover
@@ -19,4 +19,12 @@ float:left;
 text-decoration:underline;
 color:#fff;
 
+}
+.content_text p{
+float:right;
+
+}
+.bod_1 {
+
+float:left;
 }

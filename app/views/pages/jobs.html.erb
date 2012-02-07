@@ -1,6 +1,12 @@
 <div id=main_wrapper>
-<div id="wrapper">
-<a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
+<div id="wrapper_6">
+<div class="main_content">
+<a href="/"><%=image_tag "logo_img.png", :id => "logo",:alt=>"logo",:title=>"Home",:style=>"display: block;
+    float: left;
+    height: 194px;
+    margin: 0 20px 0 0;
+    width: 172px";%></a>
+<div class="intro_content">
       <form>
 <h1>PERSONAL DETAILS</h1>
    <p><label for="name"> Full Name</label>
@@ -163,9 +169,9 @@
 </p>
 <div id="education">
 <p align="center">
-<strong>Education Background</strong>
+<h1>Education Background</h1>
 </p>
-<table cellspacing="5" cellpadding="5" border="0" width="100%">
+<table cellspacing="5" cellpadding="5" border="0" >
 <tbody>
 <tr>
 <td colspan="6"></td>
@@ -725,7 +731,7 @@ Other
 </div>
 <div id="training">
 <p align="center">
-<strong>Training</strong>
+<h1>Training</h1>
 </p>
 <table cellspacing="5" cellpadding="5" border="0" width="100%">
 <tbody>
@@ -763,34 +769,34 @@ Other
 </div>
 <div id="work">
 <p align="center">
-<strong>Working Experience</strong>
+<h1>Working Experience</h1>
 </p>
 <table cellspacing="0" cellpadding="0" border="1" align="center" width="767" height="121">
 <tbody>
 <tr>
 <td width="90" bordercolor="#333333">
 <div align="center">
-<font size="1">Year Start</font>
+<font size="3">Year Start</font>
 </div>
 </td>
 <td width="90" bordercolor="#333333">
 <div align="center">
-<font size="1">Year End</font>
+<font size="3">Year End</font>
 </div>
 </td>
 <td width="300" bordercolor="#333333">
 <div align="center">
-<font size="1">Company Name </font>
+<font size="3">Company Name </font>
 </div>
 </td>
 <td width="144" bordercolor="#333333">
 <div align="center">
-<font size="1">Position</font>
+<font size="3">Position</font>
 </div>
 </td>
 <td width="129" bordercolor="#333333">
 <div align="center">
-<font size="1">Salary</font>
+<font size="3">Salary</font>
 </div>
 </td>
 </tr>
@@ -868,7 +874,7 @@ Other
 </tr>
 <div id="language">
 <p align="center">
-<strong>Language Proficiency</strong>
+<h1>Language Proficiency</h1>
 </p>
 <table cellspacing="5" cellpadding="5" border="0" width="100%">
 <tbody>
@@ -926,7 +932,7 @@ Other
 
 <div id="reference">
 <p align="center">
-<strong>Refereces#1</strong>
+<h1>References</h1>
 </p>
 <table cellspacing="5" cellpadding="5" border="0" width="100%">
 <tr>
@@ -1230,5 +1236,7 @@ Other
 </tbody>
 </table>
 </form>
+</div>
+</div>
 </div>
 </div>

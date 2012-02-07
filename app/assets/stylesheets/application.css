@@ -15,7 +15,7 @@
       height:30px;
       width:137px;
       display:block;
-      margin-top:25px;
+      margin-top:26px;
     }
 .social_network_text{
       float:left;
@@ -60,6 +60,13 @@
      display:block;
      background:url('border_Img.png')repeat-x left bottom #545d5c;
     }
+#wrapper_7{
+     width:960px;
+     margin:0 auto;;
+      padding:0 0 60px 0;
+     display:block;
+     background:#545d5c;
+    }
 
 /*........navigation..............*/
 
@@ -79,13 +86,13 @@
     float:right;
 }
 
-#m_nav ul,ul.navigation,  #sub_nav ul{
+#m_nav ul,  #sub_nav ul{
     list-style:none;
     margin-top:30px;
     margin-left: 14px;
 
   }
-#m_nav li,ul.navigation li, #sub_nav li{
+#m_nav li, #sub_nav li{
     margin-left:10px;
     display:inline;
 
@@ -94,12 +101,12 @@
     color:#519aad !important;
   }
 .active_nav,ul.navigation a{
-font-family:'teXGyreAdventorRegular';
+
    text-decoration:none;
    color:#ffffff;
    font:16px;
   }
-.active_nav:hover,#sub_nav a:hover,ul.navigation a:hover{
+.active_nav:hover,#sub_nav a:hover{
     text-decoration:none;
     color:#519aad;
     font:16px;
@@ -128,7 +135,7 @@ font-family:'teXGyreAdventorRegular';
 #footer{
      height:200px;
 
-
+     float:left;
 
      width:100%;
      display:block;
@@ -139,10 +146,12 @@ font-family:'teXGyreAdventorRegular';
    height:13px;
    background:#636969;
    border-radius:10px;
-
+  display:block;
+  clear:both;
    width:960px;
    margin:0 auto;
-  padding:18px 20px 14px 20px;
+  padding:22px;
+
 }
 #main_footer p{
     float:left;
@@ -161,6 +170,7 @@ width:100%;
   }
 .back_img{
   float:right;
+  margin-top:30px;
   }
 
 .owner{
@@ -201,5 +211,7 @@ width:100%;
 
 #activity{
     float:right;
+
+    background: url("border_Img.png") repeat-x scroll left bottom;
 }
 /*-----------board members---------*/
