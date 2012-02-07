@@ -1,13 +1,26 @@
+#btn-prev:hover{
+background-image:url("hoovleft.png");
+}
 #btn-prev{
 position:absolute;
 margin-top:-179px;
 margin-left:-1px;
+height:57px;
+width:28px;
+background-image:url("left.png");
+}
+
+#btn-next:hover{
+background-image:url("hoovright.png");
 }
 
 #btn-next{
 position:absolute;
 margin-top:-179px;
-margin-left:571px;
+margin-left:572px;
+height:57px;
+width:28px;
+background-image:url("right.png");
 }
 #slider {
 
