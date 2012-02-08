@@ -1,9 +1,4 @@
-#wrapper_6{
-  background:#519aad;
- padding:30px 0 30px 0;
-  width:100%;
-  float:left;
-}
+
 form{
  margin-top:50px;
 
@@ -12,7 +7,7 @@ label{
 width: 160px;
 float: left;
 text-align: left;
-margin-right: 20px;
+
 display: block;
 font-size:16px;
 color:#545D5C;
@@ -28,44 +23,61 @@ form p{
    padding:12px 0 0 0;
 
 }
+.form_content{
+  float:right;
+}
+.form_title{
+  display:block;
+  background:#545d5c;
+  padding:10px;
+  margin:20px 0 0 0;
+   border-radius:5px;
+font-family: 'arial',serif;
+  float:left;
+  margin:20px 0 0 0px;
+  width:940px;
+
+}
+.form_title:hover{
+ background:#027C02;
+}
+.form_text{
+ float:left;
+ display:block;
+ margin-top:30px;
+}
+.form_title a{
+  text-align:center;
+color:#fff;
+  font:normal 22px 'arial',serif;
+  text-align:center;
+  text-decoration:none;
+
+}
 strong,td{
  color:#fff;
-
+}
+form input{
+ width:390px;
+}
+#education input{
+width:160px;
+}
+#work input{
+ width:233px;
+}
+#work select{
+ width:114px;
 
 }
-#sex{
-			color: #aa6544;
-}
-
-#any{
-		 color:#aa6544;
-		 margin-left:240px;
-		 margin-top:-37px;
-}
-
-#work{
-				color: #545D5C;
-				font-family: 'arial',serif;
-
-}
-
-#education{
-						color: #aa6544;
-						font-family: 'arial',serif;
-}
-
-
-#training{
-					color: #aa6544;
-					font-family: 'arial',serif;
-}
-
-#language{
-					color: #aa6544;
-					font-family: 'arial',serif;
+#reference input{
+ width:390px;
 }
 #submit{
-					margin-left:250px;
+float:left;
+}
+#submit input{
+ width:100px;
 }
 
 /*.........end of jobs page..........*/

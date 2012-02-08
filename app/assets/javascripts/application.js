@@ -28,9 +28,9 @@ $(document).ready(function(){
       $("#m_nav li:nth-child(0) a").addClass("active");
     }
 
-//......  //slider for the service page.............
-    var $panels = $('#slider .scrollContainer > div');
-var $container = $('#slider .scrollContainer');
+//......  //slider_text for the service page.............
+    var $panels = $('#slider_text .scrollContainer > div');
+var $container = $('#slider_text .scrollContainer');
 
 // if false, we'll float all the panels left and fix the width
 // of the container
@@ -50,7 +50,7 @@ if (horizontal) {
 
 // collect the scroll object, at the same time apply the hidden overflow
 // to remove the default scrollbars that will appear
-var $scroll = $('#slider .scroll').css('overflow', 'hidden');
+var $scroll = $('#slider_text .scroll').css('overflow', 'hidden');
 
 
 
@@ -65,11 +65,11 @@ function selectNav() {
     .addClass('selected');
 }
 
-$('#slider .navigation').find('a').click(selectNav);
+$('#slider_text .navigation').find('a').click(selectNav);
 
 // go find the navigation link that has this target and select the nav
 function trigger(data) {
-  var el = $('#slider .navigation').find('a[href$="' + data.id + '"]').get(0);
+  var el = $('#slider_text .navigation').find('a[href$="' + data.id + '"]').get(0);
   selectNav.call(el);
 }
 
@@ -115,16 +115,16 @@ var scrollOptions = {
   easing: 'swing'
 };
 
-// apply serialScroll to the slider - we chose this plugin because it
+// apply serialScroll to the slider_text - we chose this plugin because it
 // supports// the indexed next and previous scroll along with hooking
 // in to our navigation.
-$('#slider').serialScroll(scrollOptions);
+$('#slider_text').serialScroll(scrollOptions);
 
 // now apply localScroll to hook any other arbitrary links to trigger
 // the effect
 $.localScroll(scrollOptions);
 
-// finally, if the URL has a hash, move the slider in to position,
+// finally, if the URL has a hash, move the slider_text in to position,
 // setting the duration to 1 because I don't want it to scroll in the
 // very first page load.  We don't always need this, but it ensures
 // the positioning is absolutely spot on when the pages loads.

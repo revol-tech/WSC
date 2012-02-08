@@ -1,5 +1,5 @@
 
-#slider {
+#slider_text_text {
 
   margin: 0 auto;
   position: relative;
@@ -33,7 +33,7 @@ margin:20px 0 0 0;
 .navigation{
  margin:0 0 0 95px;
 }
-#slider li{
+#slider_text li{
 
 display:block;
   float:left;
@@ -43,7 +43,7 @@ display:block;
   margin:6px 0 0 12px ;
   border-radius:5px;
 }
-#slider li:hover{
+#slider_text li:hover{
 background:#027C02;
 
 }
@@ -65,4 +65,4 @@ background:#027C02;
 .scrollButtons.right {
   right: -20px;
 }
-/*...........end of branch jquery slider.....*/
+/*...........end of branch jquery slider_text.....*/

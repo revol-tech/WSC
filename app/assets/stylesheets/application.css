@@ -15,7 +15,7 @@
       height:30px;
       width:137px;
       display:block;
-      margin-top:26px;
+      margin-top:37px;
     }
 .social_network_text{
       float:left;
@@ -84,6 +84,7 @@
 
 #m_nav{
     float:right;
+    margin:12px 0 0 0;
 }
 
 #m_nav ul,  #sub_nav ul{
@@ -114,7 +115,7 @@
 
 #sub_nav{
     float:right;
-    margin:0 0 0 45px;
+    margin:11px 0 0 45px;
 
   }
 #sub_nav a{
