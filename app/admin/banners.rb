@@ -8,13 +8,12 @@ ActiveAdmin.register Banner do
 
       def update
         @banner = Banner.find(params[:id])
-        @banner.save!
         uploader = ImageUploader.new
         uploader.store!(params[:banner][:image_file])
         @banner.caption = params[:banner][:caption]
         @banner.image_path = uploader.to_s
         @banner.save!
-        redirect_to admin_banners_path, :notice => "Banner updated successfully!"
+        redirect_to admin_banners_path, :notice => "NewsAndEvent updated successfully!"
       end
 
       def create
