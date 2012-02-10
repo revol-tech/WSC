@@ -9,7 +9,9 @@
  padding:0;
 
 }
-
+body{
+ text-align:justify;
+}
 #social_network{
       float:right;
       height:30px;
@@ -134,15 +136,19 @@
 
 /*.......footer................*/
 #footer{
-     height:200px;
+
 
      float:left;
 
      width:100%;
      display:block;
     }
-
-#main_footer{
+#sub_footer{
+    width:100%;
+    float:left;
+    diplay:block;
+}
+#copyright{
 
    height:13px;
    background:#636969;
@@ -150,11 +156,11 @@
   display:block;
   clear:both;
    width:960px;
-   margin:0 auto;
+
   padding:22px;
 
 }
-#main_footer p{
+#copyright p{
     float:left;
     font-family: 'arial',serif;
     color:#484d4c;
@@ -164,7 +170,7 @@
 #back{
 
 display:block;
-float:left;
+
 position:relative;
 height:81px;
 width:100%;

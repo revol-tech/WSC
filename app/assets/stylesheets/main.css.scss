@@ -259,7 +259,14 @@ border-bottom: 1px solid #519aad;
 
 }
 
-
+#activity_image{
+border: 2px solid #519AAD;
+    display: block;
+    float: left;
+    height: 135px;
+    overflow: hidden;
+    width: 145px;
+}
 .activities_read{
      background:#545D5C;
      border-radius: 3px 3px 3px 3px;

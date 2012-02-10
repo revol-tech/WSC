@@ -4,12 +4,12 @@
 <div id="activity">
 <% @activities_detail.each do|activity_detail| %>
   <div id="main_activity" style="display:block;margin:0 0 0 60px;padding:0 0 160px 0;">
-     <div id="activity_image" style="float:left;display:block;border:2px solid #519aad;'">
+     <div id="activity_image">
          <%= image_tag "#{activity_detail.image_path}", :class=>"image_activity"%>
        </div>
       <div id="headline" style="display:block;width:600px;padding:0 0 0 50px;float:left;">
     <h1 style="color:#519aad;font:normal 22px/21px 'arial',serif;float:left;"><%= activity_detail.headline%></h1>
-    <p style="float:left;color:#fff;font:normal 16px/21px 'arial',serif;"><%= activity_detail.text%></p>
+    <p style="float:left;color:#fff;font:normal 14px/21px 'arial',serif;"><%= activity_detail.text%></p>
     </div>
   </div>
 <%end%>

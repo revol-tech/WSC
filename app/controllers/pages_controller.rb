@@ -26,5 +26,7 @@ class PagesController < ApplicationController
   def contact_us
   end
 
+  def chair_person
+  end
 
 end
