@@ -3,7 +3,7 @@
   <a href="/"><%=image_tag "logo_img.png", :id => "sub_page_logo",:alt=>"logo",:title=>"Home"%></a>
 <div id="activity">
 <% @activities_detail.each do|activity_detail| %>
-  <div id="main_activity" style="display:block;margin:0 0 0 60px;padding:0 0 160px 0;">
+  <div id="main_activity" style="display:block;margin:0 0 0 60px;padding:0 0 160px 0;float:left;">
      <div id="activity_image">
          <%= image_tag "#{activity_detail.image_path}", :class=>"image_activity"%>
        </div>

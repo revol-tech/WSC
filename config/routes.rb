@@ -38,6 +38,7 @@ WomenSupport::Application.routes.draw do
   get "pages/Our_organization"
 
   get "pages/jobs"
+  get "pages/chair_person"
 
 
   get "pages/branch"

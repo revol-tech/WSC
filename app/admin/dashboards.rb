@@ -20,8 +20,9 @@ ActiveAdmin::Dashboards.build do
   # The block is rendered within the context of the view, so you can
   # easily render a partial rather than build content in ruby.
   #
-     section "Welcome!" do
+     section "" do
        div do
+
          render 'welcome_message' # => this will render /app/views/admin/dashboard/_recent_posts.html.erb
        end
      end
