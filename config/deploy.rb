@@ -1,5 +1,5 @@
 default_run_options[:pty] = true
-set :application, "revol-tech"
+set :application, "wsc"
 set :repository,  "git@github.com:revol-tech/WSC.git"
 set :use_sudo, false  #permission conflict resolve
 set :scm, :git
@@ -7,9 +7,9 @@ set :scm, :git
 
 set :deploy_to, "/home/deploy/www/wscl.com.np"
 
-role :web, "revol-tech.com.np"                          # Your HTTP server, Apache/etc
-role :app, "revol-tech.com.np"                          # This may be the same as your `Web` server
-role :db,  "revol-tech.com.np", :primary => true # This is where Rails migrations will run
+role :web, "wscl.com.np"                          # Your HTTP server, Apache/etc
+role :app, "wscl.com.np"                          # This may be the same as your `Web` server
+role :db,  "wscl.com.np", :primary => true # This is where Rails migrations will run
 #role :db,  "your slave db-server here"
 
 set :user, "deploy"
