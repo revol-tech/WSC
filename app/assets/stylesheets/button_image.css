@@ -1,0 +1,12 @@
+.basic {
+  width: 283px;
+  height: 284px;
+  margin-top: 8px;
+  margin-left:8px;
+  padding: 0;
+  border: 0;
+  background: transparent url(map.jpg) no-repeat center top;
+  text-indent: -1000em;
+  cursor: pointer; /* hand-shaped cursor */
+  cursor: hand; /* for IE 5.x */
+}
