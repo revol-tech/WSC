@@ -38,7 +38,7 @@ float:right;
 #intro{
 float:right;
 color:#fff;
- margin:30px 0px 0 20px;
+ margin:30px 0px 0 0px;
  font-family:Terminal Dosis, sans-serif;
  font-size:42px;
  font-weight:bold;
@@ -59,8 +59,8 @@ margin:0 0 0px 0;
 #logo {
    margin:30px 20px 0 0;
    float:left;
-   height:194px;
-   width:172px;
+   height:188px;
+   width:182px;
    display:block;
 
 }
@@ -68,7 +68,7 @@ margin:0 0 0px 0;
 
 
 .read_more{
-  background-color: #636969;
+  background-color: #f1d36e;
   float: right;
   padding: 5px 10px;
   color:#ffffff;
@@ -81,11 +81,11 @@ margin:0 0 0px 0;
 
 }
 .read_more:hover{
-  background-color: #027c02;
+  background-color: #636969;
 
 }
 .read_more_big {
-   background-color: #636969;
+   background-color: #f1d36e;
   float: right;
   padding: 5px 0px;
   color:#ffffff;
@@ -99,7 +99,7 @@ margin:0 0 0px 0;
 
 }
 .read_more_big:hover{
-  background-color: #027c02;
+  background-color:#636969;
 
 }
 #sub_banner_content{

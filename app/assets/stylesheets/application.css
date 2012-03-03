@@ -193,7 +193,7 @@ width:100%;
    color:#fff;
 }
 #contact p{
-    color:#ffffff;
+    color:#636969;
     font:normal 14px/21px 'arial',serif;
    }
    #contact{
@@ -201,16 +201,13 @@ width:100%;
    width:280px;
 
    border-radius:10px;
-   background:#636969;
+   background:#f1d36e;
 
    display:block;
    margin-top:50px;
    padding:10px;
   }
- #contact:hover{
 
- background: #027c02;
- }
 
 /*.......end of  footer................*/
 

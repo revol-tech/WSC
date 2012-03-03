@@ -13,7 +13,7 @@
    display:block;
 }
 .content_text,.profile{
-border-top:5px solid #545d5c;
+border-top:5px solid #f1d36e;
  float:right;
  padding-top:20px;
  width:768px;
@@ -24,7 +24,7 @@ border-top:5px solid #545d5c;
 }
 .intro_content{
   float:right;
-  width:768px;
+  width:750px;
 
 }
 .profile_img{
@@ -59,25 +59,22 @@ border-top:5px solid #545d5c;
 .content_title{
   display:block;
   float:right;
-  background:#545d5c;
+  background:#f1d36e;
 
   padding:10px;
   margin:0 0 30px 0;
   border-radius:5px;
 
 }
-.content_title a,.objective_title a,.profile_title a{
+.content_title span,.objective_title span,.profile_title span{
 text-align:center;
-color:#fff;
+color:#636969;
   font:'arial',serif;
   text-align:center;
-  text-decoration:none;
+
 
 }
-.content_title:hover ,.objective_title:hover,.profile_title:hover{
-background:#027C02;
 
-}
 #wrapper_2,#wrapper_3,#wrapper_9{
   background:#fff;
  padding:30px 0 30px 0;
@@ -85,7 +82,7 @@ background:#027C02;
   float:left;
 }
 .objective_text,.profile{
- border-top:5px solid #545d5c;
+ border-top:5px solid #f1d36e;
  float:left;
  padding-top:20px;
  width:960px;
@@ -94,10 +91,20 @@ background:#027C02;
  color:#545d5c;
 
 }
-.objective_title,.profile_title{
+.objective_title{
+  display:block;
+  float:right;
+  background:#f1d36e;
+
+  padding:10px;
+  margin:0 0 30px 0;
+  border-radius:5px;
+
+}
+.profile_title{
   display:block;
   float:left;
-  background:#545d5c;
+  background:#f1d36e;
 
   padding:10px;
   margin:0 0 30px 0;

@@ -28,7 +28,7 @@ form p{
 }
 .form_title{
   display:block;
-  background:#545d5c;
+  background:#f1d36e;
   padding:10px;
   margin:20px 0 0 0;
    border-radius:5px;
@@ -38,20 +38,18 @@ font-family: 'arial',serif;
   width:940px;
 
 }
-.form_title:hover{
- background:#027C02;
-}
+
 .form_text{
  float:left;
  display:block;
  margin-top:30px;
 }
-.form_title a{
+.form_title span{
   text-align:center;
-color:#fff;
+color:#636969;
   font:normal 22px 'arial',serif;
   text-align:center;
-  text-decoration:none;
+
 
 }
 strong,td{
