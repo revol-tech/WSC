@@ -26,6 +26,7 @@ WomenSupport::Application.routes.draw do
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
+  get "pages/home"
 
   get "pages/about_us"
 
@@ -46,19 +47,7 @@ WomenSupport::Application.routes.draw do
   get "pages/news_event"
   get "pages/contact_us"
 
-  get "about_us/services"
 
-  get "about_us/activities"
-
-  get "about_us/achievements"
-
-  get "about_us/Our_organization"
-
-  get "about_us/jobs"
-
-  get "about_us/branch"
-
-  get "about_us/news_event"
 
   resources :main do
     collection do

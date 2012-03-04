@@ -13,10 +13,10 @@
    display:block;
 }
 .content_text,.profile{
-border-top:5px solid #f1d36e;
+border-top:5px solid #636969;
  float:right;
  padding-top:20px;
- width:768px;
+ width:730px;
  display:block;
   font:normal 16px/21px "arial",serif;
  color:#fff;
@@ -24,7 +24,7 @@ border-top:5px solid #f1d36e;
 }
 .intro_content{
   float:right;
-  width:750px;
+  width:730px;
 
 }
 .profile_img{
@@ -59,7 +59,17 @@ border-top:5px solid #f1d36e;
 .content_title{
   display:block;
   float:right;
-  background:#f1d36e;
+  background:#636969;
+
+  padding:10px;
+  margin:0 0 30px 0;
+  border-radius:5px;
+
+}
+.orgaization_title{
+  display:block;
+
+  background:#636969;
 
   padding:10px;
   margin:0 0 30px 0;
@@ -68,7 +78,7 @@ border-top:5px solid #f1d36e;
 }
 .content_title span,.objective_title span,.profile_title span{
 text-align:center;
-color:#636969;
+color:#fff;
   font:'arial',serif;
   text-align:center;
 
@@ -81,8 +91,8 @@ color:#636969;
   width:100%;
   float:left;
 }
-.objective_text,.profile{
- border-top:5px solid #f1d36e;
+.objective_text,.profile,.org_img{
+ border-top:5px solid #636969;
  float:left;
  padding-top:20px;
  width:960px;
@@ -94,7 +104,7 @@ color:#636969;
 .objective_title{
   display:block;
   float:right;
-  background:#f1d36e;
+  background:#636969;
 
   padding:10px;
   margin:0 0 30px 0;
@@ -104,7 +114,7 @@ color:#636969;
 .profile_title{
   display:block;
   float:left;
-  background:#f1d36e;
+  background:#636969;
 
   padding:10px;
   margin:0 0 30px 0;
