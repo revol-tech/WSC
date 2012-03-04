@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 
     //Look through all the links in the sidebar
-   $("#m_nav li a").filter(function() {
+   $("#m_nav li a,#sub_nav li a").filter(function() {
 
       //Take the current URL and split it into chunks at each slash
       var currentURL = window.location.toString().split("/");
@@ -24,8 +24,9 @@ $(document).ready(function(){
 
    //Afterwards, look back through the links. If none of them were marked,
    //mark your default one.
-   if($('#m_nav li a').hasClass("active") == false) {
+   if($('#m_nav li a,#sub_nav li a').hasClass("active") == false) {
       $("#m_nav li:nth-child(0) a").addClass("active");
+      $("#sub_nav li:nth-child(0) a").addClass("active");
     }
 
 //......  //slider_text for the service page.............
