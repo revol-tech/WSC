@@ -62,7 +62,7 @@ background-image:url("right.png");
 
 	/* Set the position */
 	position:absolute;
-	top:225px;
+	top:260px;
 	left:0;
 	z-index:500;
 
@@ -97,9 +97,9 @@ background-image:url("right.png");
 
 	#excerpt li {
 color: #FFFFFF;
-    font: 12px "arial";
+    font: 16px "arial";
     padding: 5px;
-   	}
+	}
 
 #buttons{
 position:absolute;

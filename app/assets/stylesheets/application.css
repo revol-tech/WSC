@@ -198,15 +198,15 @@ width:100%;
    color:#fff;
 }
 #contact p{
-    color:#636969;
+    color:#fff;
     font:normal 14px/21px 'arial',serif;
    }
-   #contact{
+#contact{
 
    width:280px;
 
    border-radius:10px;
-   background:#f1d36e;
+   background:#636969;
 
    display:block;
    margin-top:50px;

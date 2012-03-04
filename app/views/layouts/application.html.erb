@@ -6,7 +6,7 @@
 <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis:400,700|Abel' rel='stylesheet' type='text/css'>
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-        <%= stylesheet_link_tag "application","main","pages","banner", "image_slider", "pages/job", "pages/about_us","pages/services","pages/branch","pages/org","gallery_slider","button_image"%>
+        <%= stylesheet_link_tag "application","main","banner", "pages/job", "pages/about_us","pages/services","pages/branch","pages/org","gallery_slider","button_image"%>
         <%= javascript_include_tag "application" %>
         <%= csrf_meta_tags %>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id))
@@ -27,11 +27,11 @@
                 <ul>
                     <li><%= link_to "Jobs",pages_jobs_path, :class => "active_nav" %></li>
                     <li><a><%= link_to "Branches",pages_branch_path, :class => "active_nav" %></a></li>
-                </ul>
+  	              </ul>
           </div>
           <div  id="m_nav">
                  <ul>
-                   <li><%= link_to "Home","/" , :class => "active_nav"  %></li>
+                   <li><%= link_to "Home",main_index_path , :class => "active_nav"  %></li>
                     <li><%= link_to "About Us",pages_about_us_path , :class => "active_nav"  %></li>
                     <li><%= link_to "Services",pages_services_path,:class=>"active_nav" %></li>
                     <li><%= link_to "Achievements",pages_achievements_path,:class=>"active_nav" %></li>

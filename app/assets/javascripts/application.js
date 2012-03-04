@@ -28,7 +28,7 @@ $(document).ready(function(){
       $("#m_nav li:nth-child(0) a").addClass("active");
       $("#sub_nav li:nth-child(0) a").addClass("active");
     }
-
+//.........nav.............
 //......  //slider_text for the service page.............
     var $panels = $('#slider_text .scrollContainer > div');
 var $container = $('#slider_text .scrollContainer');
