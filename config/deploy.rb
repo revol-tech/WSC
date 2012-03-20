@@ -1,4 +1,5 @@
 default_run_options[:pty] = true
+ssh_options[:port] = 2020
 set :application, "wsc"
 set :repository,  "git@github.com:revol-tech/WSC.git"
 set :use_sudo, false  #permission conflict resolve
@@ -13,7 +14,7 @@ role :db,  "wscl.com.np", :primary => true # This is where Rails migrations will
 #role :db,  "your slave db-server here"
 
 set :user, "deploy"
-set :scm_username, 'xecutioner'
+set :scm_username, 'revol-tech'
 set :bundle_gemfile,  "Gemfile"
   set :bundle_dir,""
   set :bundle_flags,""
